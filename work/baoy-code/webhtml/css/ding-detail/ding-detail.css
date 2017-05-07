@@ -1,0 +1,470 @@
+/*导航*/
+body{
+	position: relative;
+	background-color: #f5f5f5;
+}
+.index-nav-box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:80px;
+	z-index: 2;
+}
+.index-nav{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+
+}
+.index-logo{
+	width: 136px;
+	margin-right: -136px;
+	display: inline-block;
+	line-height: 80px;
+	float: left;
+	
+}
+.index-logo img{
+	vertical-align: middle;
+}
+.index-nav-list{
+	float: left;
+	height: 80px;
+	line-height: 80px;
+	margin-left: 608px;
+}
+.index-nav-list li{
+	float: left;
+	font-size: 18px;
+}
+.index-nav-list li a{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 16px;
+	height:36px;
+	line-height: 36px;
+	color: #fff;
+
+}
+.index-nav-list li .index-active,
+.index-nav-list li a:hover{
+	color: #0082cb;
+}
+.index-nav-list-last{
+    margin-right: -20px;
+}
+/*bootstrap*/
+a:focus {
+ outline: none;
+}
+.navbar-collapse{
+	width: 1200px;
+	margin: 0 0 0 0px;
+
+}
+.navbar-brand {
+ padding: 0;
+}
+#myCarousel {
+ margin: 0 ;
+}
+.carousel-inner .item img {
+ margin: 0 auto;
+}
+.carousel-control {
+ font-size: 100px;
+}
+.navbar{
+	position: fixed;
+	/*left: 0;*/
+	top: 0;
+	/*right: 0;*/
+	margin: auto;
+	height: 80px;
+}
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+#navbar-collapse .navbar-nav>li>a{
+	color:#333;
+	padding: 0px 28px;
+	line-height: 80px;
+	font-size: 16px;
+}
+.navbar-brand img{
+	margin-top: 22px;
+}
+.carousel-indicators li{
+	margin: 4px;
+}
+
+.carousel-indicators .active{
+	margin: 4px;
+}
+.form-signin{
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+p{
+	display: inline-block;
+}
+.checkbox{
+	display: inline-block;
+}
+.box{
+	max-height:340px;
+	max-width: 330px;
+	background-color: rgba(0,0,0,.5); 
+}
+.bg-show{
+	background-color: #fff;
+	
+}
+.bg-show a{
+	color: #333 !important;
+}
+#navbar-collapse .navbar-nav li .nav-cont-list4{
+    padding-right: 0;
+}
+#nav a:hover{
+	color: #099fde !important;
+}
+.aActive{
+	color: #099fde !important;
+}
+.bg-show .aActive{
+	color: #099fde !important;
+}
+.container{
+	padding: 0;
+	width: 1200px;
+}
+#nav{
+	background-color: #fff;
+}
+/*二级导航*/
+.product-sec-nav{
+	width: 100%;
+	height: 40px;
+	background-color: #099fde;
+	margin-top: 80px;
+}
+.product-sec-nav-cont{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+}
+.product-sec-nav .product-sec-nav-cont span{
+	font-size: 14px;
+	color: #fff;
+	line-height: 40px;
+}
+.pro-phone-message{
+	float: right;
+	margin-right: 60px;
+}
+.product-search-box{
+	width: 240px;
+	height: 30px;
+	float: right;
+	overflow: hidden;
+	font-size: 0;
+	margin-top: 5px;
+}
+.product-search-box input{
+    width: 204px;
+    height: 30px;
+    background-color: #fff;
+    border:1px solid #ddd;
+    padding:0 10px;
+    color: #333;
+    font-size: 14px;
+    vertical-align: top;
+}
+.product-search{
+	font-size: 0;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border:1px solid #ddd;
+	background-color: #fff;
+}
+.product-search img{
+	width: 13px;
+	vertical-align: top;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+/*订单详情内容*/
+.ding-details-box{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.ding-details-box-title{
+	width: 1200px;
+	height: 50px;
+    background-color: #ddd;
+}
+.ding-details-box-title-left{
+	float: left;
+}
+.ding-details-box-title-left img{
+	margin-left: 20px;
+	vertical-align:top;
+	height:30px; 
+	margin-top: 10px;
+}
+.ding-details-box-title-left h1{
+	color: #333;
+	font-size:24px;
+	line-height: 50px;
+	display: inline-block; 
+	margin-left: 20px;
+}
+.ding-details-box-title-right{
+	float: right;
+	line-height: 50px;
+	margin-right: 20px;
+}
+.ding-details-box-title-right a{
+	display: inline-block;
+	padding:0 20px;
+}
+.fen-line{
+	display: inline-block;
+	width: 1px;
+	height: 14px;
+	background-color: #666;
+	margin-top: 18px;
+	vertical-align: top;
+	margin-left: 20px;
+}
+.bao-message-tou-box{
+	width: 1200px;
+	border:1px solid #ddd;
+	overflow: hidden;
+}
+.bao-message-tou-title{
+	color: #333;
+	line-height: 50px;
+	font-size: 18px;
+	margin-left: 20px;
+}
+.bao-message-tou-left{
+	width: 460px;
+	/*border:1px solid #ddd;*/
+	float: left;
+}
+.bao-tou-left{
+	float: left;
+	margin-left: 20px;
+	width: 122px;
+	line-height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bao-tou-left span{
+	display: block;
+}
+.bao-tou-right{
+	float: left;
+	/*margin-left:200px;*/
+	width: 294px;
+	line-height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bao-tou-right span{
+	display: block;
+}
+.time-xiangmu span{
+	display: inline-block;
+}
+.bao-message-tou-right{
+	float: left;
+	border-left: 1px solid #ddd;
+}
+.bao-message-list{
+	width: 700px;
+	height: 160px;
+	overflow: auto;
+	margin-bottom: 32px;
+}
+.bao-message-tou-right-box{
+	margin-left: 20px;
+}
+.bao-message-tou-right h3{
+	color: #333;
+	font-size: 18px;
+}
+.bao-message-list-left{
+	line-height: 35px;
+	float: left;
+}
+.bao-message-list-left span{
+	display: block;
+}
+.bao-message-list-right{
+	margin-left: 100px;
+	line-height: 35px;
+	float: left;
+}
+.bao-message-list-right span{
+	display: block;
+}
+.toubao-message-title{
+	color: #333;
+	font-size: 18px;
+	line-height: 50px;
+	margin-left: 20px;
+}
+.toubao-message-header{
+	height: 50px;
+	background-color: #ddd;
+	line-height: 50px;
+	border:1px solid #ddd;
+}
+.toubao-message-header th{
+	text-align: center;
+}
+.toubao-message{
+	line-height: 50px;
+}
+.toubao-message-name{
+	text-align: center;
+	width: 136px;
+	border:1px solid #ddd;
+}
+.toubao-message-ID{
+	text-align: center;
+	width: 120px;
+	border:1px solid #ddd;
+}
+.toubao-message-IDnum{
+	text-align: center;
+	width: 236px;
+	border:1px solid #ddd;
+}
+.toubao-message-birth{
+	text-align: center;
+	width: 226px;
+	border:1px solid #ddd;
+}
+.toubao-message-sex{
+	text-align: center;
+    width: 80px;
+	border:1px solid #ddd;
+}
+.toubao-message-phone{
+	text-align: center;
+	width: 172px;
+	border:1px solid #ddd;
+}
+.toubao-message-em{
+	text-align: center;
+	width: 224px;
+	border:1px solid #ddd;
+}
+.toubao-message1{
+	line-height: 50px;
+}
+.toubao-message-name1{
+	text-align: center;
+	width: 136px;
+	border:1px solid #ddd;
+}
+.toubao-message-ID1{
+	text-align: center;
+	width: 120px;
+	border:1px solid #ddd;
+}
+.toubao-message-IDnum1{
+	text-align: center;
+	width: 236px;
+	border:1px solid #ddd;
+}
+.toubao-message-birth1{
+	text-align: center;
+	width: 226px;
+	border:1px solid #ddd;
+}
+.toubao-message-sex1{
+	text-align: center;
+    width: 82px;
+	border:1px solid #ddd;
+}
+.toubao-message-phone1{
+	text-align: center;
+	width: 264px;
+	border:1px solid #ddd;
+}
+.toubao-message-em1{
+	text-align: center;
+	width: 134px;
+	border:1px solid #ddd;
+}
+.fanye-message{
+	width: 1200px;
+	height: 50px;
+	line-height: 50px;
+}
+.fanye-message .fanye-message-left{
+	float: left;
+	margin-left: 20px;
+}
+.fanye-message .fanye-message-left input{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	border-radius: 5px;
+	border:1px solid #ddd;
+	vertical-align: middle;
+}
+.fanye-message .fanye-message-left span{
+	color: #333;
+	font-size: 14px;
+	vertical-align:middle;
+}
+.fanye-message .fanye-message-right{
+	float: right;
+	margin-right: 20px;
+}
+.fanye-message-right a{
+	color: #333;
+	font-size: 14px;
+	padding:4px 12px;
+	border-radius: 5px;
+	border:1px solid #ddd; 
+	margin-left: 20px;
+}
+/*底部*/
+.btm-message-all{
+	width: 100%;
+	height:50px;
+	background-color: #363d44; 
+	min-width: 1200px;
+	margin-top: 20px;
+}
+.btm-message{
+	width: 1200px;
+	margin: 0 auto;
+	/*margin-right: -124px;*/
+}
+.btm-message span{
+	line-height: 50px;
+	font-size:16px;
+	color: #fff;
+	margin-right: 124px; 
+}
+#btm-message-last{
+	margin-right: -124px;
+}
+.index-advantage ul li:hover{
+    color: #0082cb;
+}

@@ -1,0 +1,340 @@
+/*导航*/
+body{
+	position: relative;
+	background-color: #f5f5f5;
+}
+.index-nav-box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:80px;
+	z-index: 2;
+}
+.index-nav{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+
+}
+.index-logo{
+	width: 136px;
+	margin-right: -136px;
+	display: inline-block;
+	line-height: 80px;
+	float: left;
+	
+}
+.index-logo img{
+	vertical-align: middle;
+}
+.index-nav-list{
+	float: left;
+	height: 80px;
+	line-height: 80px;
+	margin-left: 608px;
+}
+.index-nav-list li{
+	float: left;
+	font-size: 18px;
+}
+.index-nav-list li a{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 16px;
+	height:36px;
+	line-height: 36px;
+	color: #fff;
+
+}
+.index-nav-list li .index-active,
+.index-nav-list li a:hover{
+	color: #0082cb;
+}
+.index-nav-list-last{
+    margin-right: -20px;
+}
+/*bootstrap*/
+a:focus {
+ outline: none;
+}
+.navbar-collapse{
+	width: 1200px;
+	margin: 0 0 0 0px;
+
+}
+.navbar-brand {
+ padding: 0;
+}
+#myCarousel {
+ margin: 0 ;
+}
+.carousel-inner .item img {
+ margin: 0 auto;
+}
+.carousel-control {
+ font-size: 100px;
+}
+.navbar{
+	position: fixed;
+	/*left: 0;*/
+	top: 0;
+	/*right: 0;*/
+	margin: auto;
+	height: 80px;
+}
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+#navbar-collapse .navbar-nav>li>a{
+	color:#333;
+	padding: 0px 28px;
+	line-height: 80px;
+	font-size: 16px;
+}
+.navbar-brand img{
+	margin-top: 22px;
+}
+.carousel-indicators li{
+	margin: 4px;
+}
+
+.carousel-indicators .active{
+	margin: 4px;
+}
+.form-signin{
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+p{
+	display: inline-block;
+}
+.checkbox{
+	display: inline-block;
+}
+.box{
+	max-height:340px;
+	max-width: 330px;
+	background-color: rgba(0,0,0,.5); 
+}
+.bg-show{
+	background-color: #fff;
+	
+}
+.bg-show a{
+	color: #333 !important;
+}
+#navbar-collapse .navbar-nav li .nav-cont-list4{
+    padding-right: 0;
+}
+#nav a:hover{
+	color: #099fde !important;
+}
+.aActive{
+	color: #099fde !important;
+}
+.bg-show .aActive{
+	color: #099fde !important;
+}
+.container{
+	padding: 0;
+	width: 1200px;
+}
+#nav{
+	background-color: #fff;
+}
+/*banner*/
+.claims-banner-box{
+	width: 100%;
+	height: 528px;
+	background:url(../../images/news.png) top center;
+	margin-top: 80px;
+}
+/*新闻内容*/
+.news-details-cont{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+.news-details-title{
+	/*text-align: center;*/
+	color: #099fde;
+	font-size: 24px;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.news-details-title1{
+	color: #333;
+	font-size: 14px;
+    margin-bottom: 20px;
+}
+.news-details-text-box{
+	width: 1200px;
+	border-top:1px dotted #ddd;
+	overflow: hidden;
+}
+.news-details-img{
+	float: left;
+}
+.news-details-img img{
+	width:472px;
+	margin-top: 70px; 
+}
+.news-details-font{
+	/*float: left;*/
+	margin-left: 20px;
+	margin-top: 70px;
+}
+.news-details-font p,.news-details-font1{
+	width:650px;
+	text-align: left;
+	line-height: 38px;
+	margin-bottom: 40px; 
+}
+.news-details-font-title{
+	color: #333;
+	font-size:18px;
+	margin-bottom:40px;  
+}
+.news-details-font-img{
+	width: 1200px;
+	margin-bottom: 28px;
+}
+.news-details-font1{
+	width: 1200px;
+}
+.share-ad{
+	width: 1200px;
+	margin:0 auto;
+	border-top:1px dotted #ddd;
+	overflow: hidden;
+	/*margin-top:70px;*/ 
+}
+.share-ad-QQ{
+	float: left;
+	margin-top:40px;
+	margin-bottom: 70px;
+	margin-right: -100%;
+}
+.share-ad-QQ a{
+	margin-right: 20px;
+}
+.sx-btn{
+	float:right; 
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+.sx-btn-shang{
+	display: inline-block;
+	background:url(../../images/shang.png) no-repeat;
+	background-size: 100% 100%;
+}
+.sx-btn-shang a,
+.sx-btn-xia a{
+	padding: 0 10px;
+}
+.sx-btn-xia{
+	display: inline-block;
+	background:url(../../images/xia.png);
+	background-size: 100% 100%;
+}
+/*相关新闻*/
+.tuijian-news-title{
+	height:14px;
+	border-left: 1px solid #099fde;
+	margin-top: 134px; 
+}
+.tuijian-news-title h4{
+	color: #099fde;
+	font-size: 14px;
+	padding-left: 10px;
+	/*margin-left: 20px;*/
+	text-align: left;
+	/*margin-bottom: 40px;*/
+}
+.tuijian-news-list1{
+	width: 252px;
+	margin-bottom: 100px;
+	float: left;
+	margin-right:66px;
+	margin-top: 40px; 
+}
+.tuijian-news-list2{
+	margin-right: -66px;
+}
+/*底部*/
+.bottom-all{
+	width: 100%;
+	height: 394px;
+	background-color: #40474f;
+	min-width: 1200px;
+	overflow: hidden;
+}
+.bottom{
+	width: 1200px;
+	margin:0 auto;
+}
+.bottom li{
+	float: left;
+	width: 20%;
+	margin-top: 100px;
+}
+.bottom li h1{
+	font-weight: normal;
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 14px;
+}
+.bottom li a{
+	color: #ddd;
+	font-size: 16px;
+	line-height: 32px;
+}
+.bottom li a:hover{
+	color: #179cda;
+}
+.bottom li img{
+	width:20px;
+	margin-right:15px;
+	line-height: 32px;
+	vertical-align: middle;  
+}
+.attention{
+	float: right;
+	margin-right: 90px;
+	overflow: hidden;
+}
+.attention h1{
+    color: #fff;
+    font-size:24px;
+    margin-top:100px;
+    font-weight: normal;
+    margin-bottom:20px;   
+}
+.btm-message-all{
+	width: 100%;
+	height:50px;
+	background-color: #363d44; 
+	min-width: 1200px;
+}
+.btm-message{
+	width: 1200px;
+	margin: 0 auto;
+	/*margin-right: -124px;*/
+}
+.btm-message span{
+	line-height: 50px;
+	font-size:16px;
+	color: #fff;
+	margin-right: 124px; 
+}
+#btm-message-last{
+	margin-right: -124px;
+}
+.index-advantage ul li:hover{
+    color: #0082cb;
+}

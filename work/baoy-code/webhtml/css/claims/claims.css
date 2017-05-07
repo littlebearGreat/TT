@@ -1,0 +1,356 @@
+/*导航*/
+body{
+	position: relative;
+	background-color: #f5f5f5;
+}
+a:hover{
+	text-decoration: none;
+}
+a:link{
+	text-decoration: none;
+}
+.index-nav-box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:80px;
+	z-index: 2;
+}
+.index-nav{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+
+}
+.index-logo{
+	width: 136px;
+	margin-right: -136px;
+	display: inline-block;
+	line-height: 80px;
+	float: left;
+	
+}
+.index-logo img{
+	vertical-align: middle;
+}
+.index-nav-list{
+	float: left;
+	height: 80px;
+	line-height: 80px;
+	margin-left: 608px;
+}
+.index-nav-list li{
+	float: left;
+	font-size: 18px;
+}
+.index-nav-list li a{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 16px;
+	height:36px;
+	line-height: 36px;
+	color: #fff;
+
+}
+.index-nav-list li .index-active,
+.index-nav-list li a:hover{
+	color: #0082cb;
+}
+.index-nav-list-last{
+    margin-right: -20px;
+}
+/*bootstrap*/
+a:focus {
+ outline: none;
+}
+.navbar-collapse{
+	width: 1200px;
+	margin: 0 0 0 0px;
+
+}
+.navbar-brand {
+ padding: 0;
+}
+#myCarousel {
+ margin: 0 ;
+}
+.carousel-inner .item img {
+ margin: 0 auto;
+}
+.carousel-control {
+ font-size: 100px;
+}
+.navbar{
+	position: fixed;
+	/*left: 0;*/
+	top: 0;
+	/*right: 0;*/
+	margin: auto;
+	height: 80px;
+}
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+#navbar-collapse .navbar-nav>li>a{
+	color:#333;
+	padding: 0px 28px;
+	line-height: 80px;
+	font-size: 16px;
+}
+.navbar-brand img{
+	margin-top: 22px;
+}
+.carousel-indicators li{
+	margin: 4px;
+}
+
+.carousel-indicators .active{
+	margin: 4px;
+}
+.form-signin{
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+p{
+	display: inline-block;
+}
+.checkbox{
+	display: inline-block;
+}
+.box{
+	max-height:340px;
+	max-width: 330px;
+	background-color: rgba(0,0,0,.5); 
+}
+.bg-show{
+	background-color: #fff;
+	
+}
+.bg-show a{
+	color: #333 !important;
+}
+#navbar-collapse .navbar-nav li .nav-cont-list4{
+    padding-right: 0;
+}
+#nav a:hover{
+	color: #099fde !important;
+}
+.aActive{
+	color: #099fde !important;
+}
+.bg-show .aActive{
+	color: #099fde !important;
+}
+.container{
+	padding: 0;
+	width: 1200px;
+}
+#nav{
+	background-color: #fff;
+}
+/*banner*/
+.claims-banner-box{
+	width: 100%;
+	height: 528px;
+	background:url(../../images/claims-banner.png) top center;
+	margin-top: 80px;
+}
+/*理赔步骤*/
+.claims-buzhou{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	background:url(../../images/xuxian.png) no-repeat center center;
+	/*background-position:0 10px;*/
+	overflow: hidden;
+}
+.claims-buzhou h1{
+	color: #333;
+	font-size:36px;
+	margin-top:100px;
+	margin-bottom: 70px;  
+}
+.claims-buzhou1{
+	width: 25%;
+	float: left;
+	margin-bottom: 100px;
+}
+.claims-buzhou1 img{
+	margin-bottom: 20px;
+}
+.claims-buzhou1 h4{
+	margin-bottom: 20px;
+}
+.claims-buzhou1 p{
+	width: 240px;
+}
+/*理赔材料*/
+.claims-cailiao{
+	width: 100%;
+	height:435px;
+	background-color: #eeeeee; 
+}
+.claims-cailiao-box{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+.claims-cailiao-box h1{
+	color: #333;
+	font-size: 36px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.claims-cailiao-box span{
+	color: #333;
+	font-size: 24px;
+	font-weight: normal;
+}
+.claims-cailiao-box select{
+	display: inline-block;
+	width:182px;
+	height: 35px; 
+}
+.claims-cailiao-box input{
+	display: inline-block;
+	width: 182px;
+	height: 35px;
+}
+.bao-phone{
+	margin-left: 86px;
+}
+.bao-phone-ipt{
+	margin-right: 86px;
+}
+.find-claims-dan{
+	color: #666;
+	font-size:24px; 
+}
+.ipt-choose{
+	margin-bottom: 70px;
+}
+/*理赔案例*/
+.claims-anli{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.claims-anli>h1{
+	color: #333;
+	font-size: 36px;
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+.anli1{
+	width: 350px;
+	margin-bottom: 70px;
+	float: left;
+}
+.anli1 h1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+.anli1 p{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 14px;
+	text-align: left;
+}
+.anli-cont{
+	width:350px;
+	height: 130px;
+	background-color: #fff; 
+	overflow: hidden;
+}
+.anli2{
+	margin-left: 74px;
+	margin-right: 74px;
+}
+.anli3{
+	background-color: #0082cb;
+	color: #fff;
+}
+.find-claims-more{
+	color: #666;
+	font-size: 24px;
+}
+/*底部*/
+.bottom-all{
+	width: 100%;
+	height: 394px;
+	background-color: #40474f;
+	min-width: 1200px;
+	overflow: hidden;
+}
+.bottom{
+	width: 1200px;
+	margin:0 auto;
+}
+.bottom li{
+	float: left;
+	width: 20%;
+	margin-top: 100px;
+}
+.bottom li h1{
+	font-weight: normal;
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 14px;
+}
+.bottom li a{
+	color: #ddd;
+	font-size: 16px;
+	line-height: 32px;
+}
+.bottom li a:hover{
+	color: #179cda;
+}
+.bottom li img{
+	width:20px;
+	margin-right:15px;
+	line-height: 32px;
+	vertical-align: middle;  
+}
+.attention{
+	float: right;
+	margin-right: 90px;
+	overflow: hidden;
+}
+.attention h1{
+    color: #fff;
+    font-size:24px;
+    margin-top:100px;
+    font-weight: normal;
+    margin-bottom:20px;   
+}
+.btm-message-all{
+	width: 100%;
+	height:50px;
+	background-color: #363d44; 
+	min-width: 1200px;
+}
+.btm-message{
+	width: 1200px;
+	margin: 0 auto;
+	/*margin-right: -124px;*/
+}
+.btm-message span{
+	line-height: 50px;
+	font-size:16px;
+	color: #fff;
+	margin-right: 124px; 
+}
+#btm-message-last{
+	margin-right: -124px;
+}
+.index-advantage ul li:hover{
+    color: #0082cb;
+}

@@ -1,0 +1,401 @@
+/*导航*/
+body{
+	position: relative;
+	background-color: #f5f5f5;
+}
+.index-nav-box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:80px;
+	z-index: 2;
+}
+.index-nav{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+
+}
+.index-logo{
+	width: 136px;
+	margin-right: -136px;
+	display: inline-block;
+	line-height: 80px;
+	float: left;
+	
+}
+.index-logo img{
+	vertical-align: middle;
+}
+.index-nav-list{
+	float: left;
+	height: 80px;
+	line-height: 80px;
+	margin-left: 608px;
+}
+.index-nav-list li{
+	float: left;
+	font-size: 18px;
+}
+.index-nav-list li a{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 16px;
+	height:36px;
+	line-height: 36px;
+	color: #fff;
+
+}
+.index-nav-list li .index-active,
+.index-nav-list li a:hover{
+	color: #0082cb;
+}
+.index-nav-list-last{
+    margin-right: -20px;
+}
+/*bootstrap*/
+a:focus {
+ outline: none;
+}
+.navbar-collapse{
+	width: 1200px;
+	margin: 0 0 0 0px;
+
+}
+.navbar-brand {
+ padding: 0;
+}
+#myCarousel {
+ margin: 0 ;
+}
+.carousel-inner .item img {
+ margin: 0 auto;
+}
+.carousel-control {
+ font-size: 100px;
+}
+.navbar{
+	position: fixed;
+	/*left: 0;*/
+	top: 0;
+	/*right: 0;*/
+	margin: auto;
+	height: 80px;
+}
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+#navbar-collapse .navbar-nav>li>a{
+	color:#333;
+	padding: 0px 28px;
+	line-height: 80px;
+	font-size: 16px;
+}
+.navbar-brand img{
+	margin-top: 22px;
+}
+.carousel-indicators li{
+	margin: 4px;
+}
+
+.carousel-indicators .active{
+	margin: 4px;
+}
+.form-signin{
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+p{
+	display: inline-block;
+}
+.checkbox{
+	display: inline-block;
+}
+.box{
+	max-height:340px;
+	max-width: 330px;
+	background-color: rgba(0,0,0,.5); 
+}
+.bg-show{
+	background-color: #fff;
+	
+}
+.bg-show a{
+	color: #333 !important;
+}
+#navbar-collapse .navbar-nav li .nav-cont-list4{
+    padding-right: 0;
+}
+#nav a:hover{
+	color: #099fde !important;
+}
+.aActive{
+	color: #099fde !important;
+}
+.bg-show .aActive{
+	color: #099fde !important;
+}
+.container{
+	padding: 0;
+	width: 1200px;
+}
+#nav{
+	background-color: #fff;
+}
+/*banner*/
+.claims-banner-box{
+	width: 100%;
+	height: 528px;
+	background:url(../../images/join-us.png) top center;
+	margin-top: 80px;
+}
+/*内容*/
+.join-us-cont{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.join-us-cont-title{
+	color: #099fde;
+	font-size:20px;
+	margin-bottom: 20px; 
+}
+.join-us-cont-img{
+	margin-bottom: 20px;
+}
+.join-us-cont>p{
+	font-size:14px;
+	color: #5c5c5c;
+	display: block;
+	line-height:25px;  
+}
+.join-us-img1{
+	width: 1200px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.join-tiaojian{
+	width: 1200px;
+	overflow: hidden;
+}
+.join-tiaojian-left{
+	float: left;
+	width: 585px;
+	height: 186px;
+	background-color: rgba(221,221,221,.25);
+}
+.join-tiaojian-right{
+	float: right;
+	width: 585px;
+	height: 186px;
+	background-color: rgba(221,221,221,.25);
+}
+.join-tiaojian-left-cont{
+	float: left;
+	margin-right:15px;
+	margin-top: 20px;
+	margin-left: 20px; 
+}
+.join-tiaojian-right-cont{
+	float: left;
+	margin-right:15px;
+}
+.join-tiaojian-right-cont p{
+	display: block;
+	color: #666;
+	font-size: 14px;
+	line-height: 24px;
+}
+.join-tiaojian-right p{
+	display: block;
+	line-height: 24px;
+}
+.join-tiaojian-left-text{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.join-tiaojian-right-text{
+	float: left;
+	margin-left: 15px;
+}
+.join-gangwei{
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+.join-gangwei-ipt{
+	float: right;
+	font-size: 0;
+}
+.join-gangwei-ipt input{
+	display: inline-block;
+	width:178px;
+	height: 33px;
+	border-radius: 5px 0 0 5px;
+	outline: none;
+	border:1px solid #ddd; 
+	padding-left: 5px;
+	font-size: 14px;
+}
+.join-gangwei-ipt a{
+	display: inline-block;
+	width:50px; 
+	height:33px;
+	border-radius: 0 5px 5px 0;
+	background-color: #099fde;
+	vertical-align: top;
+	text-align: center;
+}
+.join-gangwei-ipt a img{
+	margin-top:5px; 
+}
+.zhiwei-list{
+	width: 1200px;
+	margin: 0 auto;
+	border-bottom:1px dotted #ddd;
+	margin-bottom: 100px;
+}
+.zhiwei-list-head{
+	width: 1200px;
+	height: 50px;
+	background-color: #099fde;
+	border-radius: 5px;
+	color: #fff;
+	
+}
+.zhiwei-list-head th{
+	text-align: center;
+}
+.zhiwei-list-td{
+	text-align: center;
+	width: 1200px;
+	height: 50px;
+}
+.zhiwei-list-net{
+	width: 384px;
+}
+.zhiwei-list-jishu{
+	width: 168px;
+}
+.zhiwei-list-time{
+	width: 384px;
+}
+.zhiwei-list-find{
+	width: 264px;
+}
+.zhiwei-list-find a{
+	color: #cc2727;
+}
+/*底部*/
+.bottom-all{
+	width: 100%;
+	height: 394px;
+	background-color: #40474f;
+	min-width: 1200px;
+	overflow: hidden;
+}
+.bottom{
+	width: 1200px;
+	margin:0 auto;
+}
+.bottom li{
+	float: left;
+	width: 20%;
+	margin-top: 100px;
+}
+.bottom li h1{
+	font-weight: normal;
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 14px;
+}
+.bottom li a{
+	color: #ddd;
+	font-size: 16px;
+	line-height: 32px;
+}
+.bottom li a:hover{
+	color: #179cda;
+}
+.bottom li img{
+	width:20px;
+	margin-right:15px;
+	line-height: 32px;
+	vertical-align: middle;  
+}
+.attention{
+	float: right;
+	margin-right: 90px;
+	overflow: hidden;
+}
+.attention h1{
+    color: #fff;
+    font-size:24px;
+    margin-top:100px;
+    font-weight: normal;
+    margin-bottom:20px;   
+}
+.btm-message-all{
+	width: 100%;
+	height:50px;
+	background-color: #363d44; 
+	min-width: 1200px;
+}
+.btm-message{
+	width: 1200px;
+	margin: 0 auto;
+	/*margin-right: -124px;*/
+}
+.btm-message span{
+	line-height: 50px;
+	font-size:16px;
+	color: #fff;
+	margin-right: 124px; 
+}
+#btm-message-last{
+	margin-right: -124px;
+}
+.index-advantage ul li:hover{
+    color: #0082cb;
+}
+/*具体内容*/
+p{
+	display: block;
+}
+.join-detail-box{
+	width: 1200px;
+	margin: 100px auto;
+	color: #666;
+	font-size: 18px;
+}
+.join-detail-title{
+	color: #099fde;
+	font-size:24px; 
+	margin-bottom: 20px;
+} 
+.join-detail-box1{
+	margin-top: 40px;
+}
+.join-detail-box1 span{
+	margin-right: 70px;
+	line-height: 38px;
+}
+.join-detail-box2{
+	margin-top:70px;
+	line-height: 38px;
+}
+.join-detail-box2 h2{
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 38px;
+}
+.join-btn{
+	display: inline-block;
+	color: #099fde;
+	margin-top: 100px;
+}

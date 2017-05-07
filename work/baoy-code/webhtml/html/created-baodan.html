@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" charset="utf-8">
+	<title>创建保单</title>
+    <link rel="stylesheet" type="text/css" href="../Plugins/bootstrap/style/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/common/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/created-baodan/created-baodan.css">
+    <script type="text/javascript" src="../Plugins/Jquery2.1.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../Plugins/bootstrap/style/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/created-baodan/created-baodan.js"></script>
+</head>
+<body>
+    <!-- 以下是首页导航 -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="nav">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand" style="margin:0;padding:0;">
+                    <img src="../images/logo.png" alt="保游网">
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right nav-cont" style="margin-top:0;">
+                    <li>
+                        <a id="aaa" href="#">首页</a>
+                    </li>
+                    <li>
+                        <a href="bao-product.html"> 保险产品</a>
+                    </li>
+                    <li>
+                        <a href="#">解决方案</a>
+                    </li>
+                    <li>
+                        <a href="ding-find.html"> 订单查询</a>
+                    </li>
+                    <li>
+                        <a class="nav-cont-list4" href="claims.html"> 理赔指南</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 下面是二级导航 -->
+    <div class="product-sec-nav">
+        <div class="product-sec-nav-cont">
+            <span>您现在的位置：保游网>保险产品>所有产品>国内保险</span>
+            <div class="product-search-box">
+                <input type="text" placeholder="请输入关键字">
+                <a class="product-search" href="javascript:;"><img src="../images/product-search.png"></a>
+            </div>
+            <span class="pro-phone-message">
+                <img src="../images/product-phone.png">
+                <span>4001-882-892</span>
+            </span>
+        </div>  
+    </div>
+    <!-- 投保流程 -->
+    <div class="tou-liucheng-box">
+    	<div class="created-title-box">
+    	    <img class="created-bao-company" src="../images/pingan.png">
+    	    <p class="created-title">"保游天下"平安旅游保障计划（计划一）</p>
+    	</div>
+    	<!-- 保障日期 -->
+    	<div class="created-choose-time">
+    		<div class="created-choose-time-title">
+    			<span></span>
+    			<h2>保障日期</h2>
+    		</div>
+    		<div class="created-choose-time-cont">
+	    		<div class="protectDate">
+	    		    <span>起保日期：</span><input class="created-choose-time-start" type="text"> 
+	    		    <span class="overDate">终止日期：</span><input class="created-choose-time-over" type="text">
+	    		    <div class="created-choose-message">
+		    			<span>具体保险时间：自</span>
+		    			<strong>2016年11月20日零时</strong>
+		    			<span>至</span>
+		    			<strong>2016年11月20日二十四时</strong>
+		    			<span>止，</span>
+		    			<strong>共三天</strong>
+		    		</div>
+	    		</div>
+    		    <div class="created-choose-area">
+    		    	<div class="area-ipt-box">
+                        <span class="xuan-area">选择目的地：</span><input class="created-choose-area-cont" type="text" placeholder="请输入目的地">
+                        <a class="created-choose-area-btn" href="javascript:;">
+                            <img src="../images/sanjiaoxing-btn.png">
+                        </a> 
+                        <img class="dingwei" src="../images/dingwei.png">         
+                    </div>
+        		    <div class="already">
+    			        <span>已选目的地：</span>
+    		        </div> 
+    		    </div>	
+    		</div>
+    	</div>
+    	<!-- 投保人信息 -->
+        <div class="created-tou-message">
+            <div class="created-choose-time-title">
+    			<span></span>
+    			<h2>投保人信息</h2>
+    		</div>
+    		<div class="created-choose-tou-btn-box">
+    			<div class="created-choose-tou-btn">
+	    			<input type="radio" name="1">指定投保人
+	    			<input class="created-choose-tou-btn-chang" type="radio" name="1">常用投保人
+	    			<input class="created-choose-tou-btn-chang" type="radio" name="1">与第一被保人相同
+	    		</div>
+	    		<div class="created-toubaoren-message-ipt">
+	    		    <table>
+		    			<thead>
+		    				<tr class="created-toubaoren-message">
+		    					<th>姓名</th>
+		    					<th>拼音</th>
+		    					<th>证件类型</th>
+		    					<th>证件号码</th>
+		    					<th>性别</th>
+		    					<th>出生日期</th>
+		    					<th>手机号码</th>
+		    					<th>邮箱</th>
+		    				</tr>
+		    			</thead>
+		    			<tbody>
+		    				<tr class="created-toubaoren-message">
+		    					<td  ><input class="created-toubaoren-message-xing" type="text"></td>
+		    					<td ><input class="created-toubaoren-message-pin" type="text"></td>
+		    					<td>
+		    						<select class="created-toubaoren-message-zheng">
+		    						    <option>身份证</option>
+		    						    <option>护照</option>
+		    					    </select>
+		    					</td>
+		    					<td><input class="created-toubaoren-message-hao" type="text"></td>
+		    					<td>
+		    					    <select class="created-toubaoren-message-sex">
+		    						    <option>男</option>
+		    						    <option>女</option>
+		    					    </select>
+		    					</td>
+		    					<td><input class="created-toubaoren-message-sheng" type="text"></td>
+		    					<td><input class="created-toubaoren-message-phone" type="text"></td>
+		    					<td><input class="created-toubaoren-message-you" type="text"></td>
+		    				</tr>
+		    			</tbody>
+    		    	</table>	
+    			</div>
+    		</div>	
+        </div>
+        <!-- 被保人信息 --> 
+        <div class="created-bei-message">
+            <div class="created-choose-time-title">
+    			<span></span>
+    			<h2>被保人信息</h2>
+    		</div>
+    		<div class="created-choose-bei-btn-box">
+    			<div class="created-choose-bei-choose">
+	    			<input type="radio" name="1">每人一张保单
+	    			<input class="created-choose-tou-btn-chang" type="radio" name="1">多人一张保单
+	    		</div>
+	    		<div class="created-choose-bei-btn">
+	    			<a id="addList" href="javascript:;">添加被保人</a>
+	    			<a href="javascript:;">下载模板</a>
+	    			<a href="javascript:;">上传模板</a>
+	    			<a href="javascript:;">拍照识别</a>
+	    		</div>
+	    		<div class="created-toubaoren-message-ipt">
+	    		    <table id="table">
+		    			<thead>
+		    				<tr class="created-toubaoren-message">
+		    					<th>姓名</th>
+		    					<th>拼音</th>
+		    					<th>证件类型</th>
+		    					<th>证件号码</th>
+		    					<th>性别</th>
+		    					<th>出生日期</th>
+		    					<th>手机号码</th>
+		    				</tr>
+		    			</thead>
+		    			<tbody>
+		    				<tr class="created-toubaoren-message1">
+		    					<td  ><input class="created-toubaoren-message-xing1" type="text"></td>
+		    					<td ><input class="created-toubaoren-message-pin1" type="text"></td>
+		    					<td>
+		    						<select class="created-toubaoren-message-zheng1">
+		    						    <option>身份证</option>
+		    						    <option>护照</option>
+		    					    </select>
+		    					</td>
+		    					<td><input class="created-toubaoren-message-hao1" type="text"></td>
+		    					<td>
+		    					    <select class="created-toubaoren-message-sex1">
+		    						    <option>男</option>
+		    						    <option>女</option>
+		    					    </select>
+		    					</td>
+		    					<td><input class="created-toubaoren-message-sheng1" type="text"></td>
+		    					<td><input class="created-toubaoren-message-phone1" type="text"></td>
+		    				</tr>
+		    			</tbody>
+		    			<tbody>
+		    				<tr class="created-toubaoren-message1">
+		    					<td  ><input class="created-toubaoren-message-xing1" type="text"></td>
+		    					<td ><input class="created-toubaoren-message-pin1" type="text"></td>
+		    					<td>
+		    						<select class="created-toubaoren-message-zheng1">
+		    						    <option>身份证</option>
+		    						    <option>护照</option>
+		    					    </select>
+		    					</td>
+		    					<td><input class="created-toubaoren-message-hao1" type="text"></td>
+		    					<td>
+		    					    <select class="created-toubaoren-message-sex1">
+		    						    <option>男</option>
+		    						    <option>女</option>
+		    					    </select>
+		    					</td>
+		    					<td><input class="created-toubaoren-message-sheng1" type="text"></td>
+		    					<td><input class="created-toubaoren-message-phone1" type="text"></td>
+		    				</tr>
+		    			</tbody>
+		    			<tbody>
+		    				<tr class="created-toubaoren-message1">
+		    					<td  ><input class="created-toubaoren-message-xing1" type="text"></td>
+		    					<td ><input class="created-toubaoren-message-pin1" type="text"></td>
+		    					<td>
+		    						<select class="created-toubaoren-message-zheng1">
+		    						    <option>身份证</option>
+		    						    <option>护照</option>
+		    					    </select>
+		    					</td>
+		    					<td><input class="created-toubaoren-message-hao1" type="text"></td>
+		    					<td>
+		    					    <select class="created-toubaoren-message-sex1">
+		    						    <option>男</option>
+		    						    <option>女</option>
+		    					    </select>
+		    					</td>
+		    					<td><input class="created-toubaoren-message-sheng1" type="text"></td>
+		    					<td><input class="created-toubaoren-message-phone1" type="text"></td>
+		    				</tr>
+		    			</tbody>
+    		    	</table>	
+    			</div>
+    			<!-- 总价 -->  
+            	<div>
+                	<div class="created-all-price-box">
+            	    	<span>共计：</span>
+            	    	<img src="../images/pro-price.png">
+            	    	<span>0.08</span>
+                	</div>
+                	<div class="report">
+            	    	<div>
+            		    	<span>本次消费共为您节省</span>
+            		    	<span>0.01</span>
+            				<span>元</span>
+            			</div>
+            			<div>
+            				<span>价格</span>
+            				<img src="">
+            				<span>0.09</span>
+            			</div>
+            			<div>
+            				<span>被保险人共计：</span>
+            				<span>1/200</span>
+            			</div>
+            		</div>	
+        		</div> 		
+        	</div>
+    	</div>
+    	<!-- 订单备注 -->
+    	<div class="orderRemark">
+    		<div class="tit">
+	    		<span class="circle"></span>
+    			<span class="text">订单备注</span>
+    			<button class="tit-btn1">点击备注</button>
+                <button class="tit-btn2">完成</button>
+    		</div>
+    		<div class="ipt">
+    			<textarea placeholder="非必填！可以输入你要备注的信息"></textarea>
+    		</div>
+    	</div>
+    	<!-- 投保声明 -->
+    	<div class="statement">
+    		<div class="tit">
+	    		<span class="circle"></span>
+    			<span class="text">投保声明</span>
+    		</div>
+    		<div class="cont">
+    			<p>本人已了解并接受保险公司关于本产品的重要告知、详细条款、责任免除、犹豫期（仅限长期险）、费用扣除、保险单现金价值等在内的重要事项。明确并接受本产品的客户告知书以及承保机构、承保、保全变更、退保和理赔办理方式及退保、理赔金支付方式。</p>
+    			<p class="color">点击提交订单表示已接受投保声明</p>
+    		</div>
+    	</div>
+    	<div class="buttonBox">
+    		<button class="temporary">暂存订单</button>
+            <a href="tou-pay.html"><button class="submit">提交订单</button></a>
+    	</div>
+    </div>
+    <div class="alert">
+        <div class="back"></div>
+        <div class="area">
+            <div class="title">
+                <span class="close">
+                    <img src="../images/exit.png">
+                </span>
+                <span class="tit">选择目的地</span>
+            </div>
+            <div class="serch">
+                <span class="tit-all">所有国家或地区</span>
+                <span class="tit-no">不承保国家或地区</span>
+                
+                <div class="search-no">
+                    <input class="search-no-ipt" type="text" placeholder="请输入关键字">
+                    <span class="serchPic">
+                        <img src="../images/sou.png">
+                    </span>
+                </div>
+            </div>
+            <div class="all-area">
+                <div class="letter">
+                    <span class="tit">拼音首字母：</span>
+                    <ul>
+                        <li>全部</li>
+                        <li class="active">ABC</li>
+                        <li>DEF</li>
+                        <li>GHI</li>
+                        <li>JKL</li>
+                        <li>MNO</li>
+                        <li>PQR</li>
+                        <li>STU</li>
+                        <li>VWX</li>
+                        <li>YZ</li>
+                    </ul>
+                </div>
+                <div class="areaCont">
+                    <p>温馨提示：您最多可选择5个国家或地区！</p>
+                    <ul>
+                        <li>
+                            <input type="checkbox"> 特立尼达和多巴哥哈哈哈哈哈[Tijikistan]
+                        </li>
+                        <li>
+                            <input type="checkbox"> 塔吉克斯坦[Tijikistan]
+                        </li>
+                        <li>
+                            <input type="checkbox"> 塔吉克斯坦[Tijikistan]
+                        </li>
+                        <li>
+                            <input type="checkbox"> 塔吉克斯坦[Tijikistan]
+                        </li>
+                        <li>
+                            <input type="checkbox"> 塔吉克斯坦[Tijikistan]
+                        </li>
+                        <li>
+                            <input type="checkbox"> 塔吉克斯坦[Tijikistan]
+                        </li>
+                        <li>
+                            <input type="checkbox"> 塔吉克斯坦[Tijikistan]
+                        </li>
+                        <li>
+                            <input type="checkbox"> 塔吉克斯坦[Tijikistan]
+                        </li>
+                        <li>
+                            <input type="checkbox"> 特立尼达
+                        </li>
+                        <li>
+                            <input type="checkbox"> 特立尼达
+                        </li>
+                        <li>
+                            <input type="checkbox"> 特立尼达
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="all-no-area">
+                <div class="letter">
+                    <span class="tit">拼音首字母：</span>
+                    <ul>
+                        <li>全部</li>
+                        <li class="active">ABC</li>
+                        <li>DEF</li>
+                        <li>GHI</li>
+                        <li>JKL</li>
+                        <li>MNO</li>
+                        <li>PQR</li>
+                        <li>STU</li>
+                        <li>VWX</li>
+                        <li>YZ</li>
+                    </ul>
+                </div>
+                <div class="areaCont">
+                    <p>温馨提示：下面所出现的是不承保国家和地区！</p>
+                    <ul>
+                        <li>
+                            <span class="text">塔吉克斯坦[Tijikistan]</span>
+                        </li>
+                        <li>
+                            <span class="text">特立尼达和多巴哥哈哈哈哈哈[Tijikistan]</span>
+                        </li>
+                        <li>
+                            <span class="text">美国[Tijikistan]</span>
+                        </li>
+                        <li>
+                            <span class="text">特立尼达和多巴哥哈哈哈哈哈[Tijikistan][Tijikistan]</span>
+                        </li>
+                        <li>
+                            <span class="text">美国[Tijikistan]</span>
+                        </li>
+                        <li>
+                            <span class="text">塔吉克斯坦[Tijikistan]</span>
+                        </li>
+                        <li>
+                            <span class="text">塔吉克斯坦[Tijikistan]</span>
+                        </li>
+                        <li>
+                            <span class="text">塔吉克斯坦[Tijikistan]</span>
+                        </li>
+                        <li>
+                            <span class="text">塔吉克斯坦[Tijikistan]</span>
+                        </li>
+                        <li>
+                            <span class="text">塔吉克斯坦[Tijikistan]</span>
+                        </li>
+                        <li>
+                            <span class="text">塔吉克斯坦[Tijikistan]</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="checkShow">
+                <span class="tit">我选择的是：</span>
+                <span class="checked">塔吉克斯坦[Tijikistan]</span>
+                <span class="clear">清空所选</span>
+            </div>
+            <div class="btnn">
+                <button class="cancel">取消</button>
+                <button class="sure">确定</button>
+            </div>
+        </div>
+    </div>
+    <!-- 底部信息栏 -->
+    <div class="btm-message-all">
+        <div class="btm-message">
+            <span>保游网 | 粤ICP备15077157号 © 2016 深圳市保游网络科技有限公司</span>
+            <span>中元保险经纪有限公司</span>
+            <span id="btm-message-last">保险业务经营许可证:260431000000800</span> 
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,323 @@
+/*导航*/
+body{
+	position: relative;
+	background-color: #f5f5f5;
+}
+.index-nav-box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:80px;
+	z-index: 2;
+}
+.index-nav{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+
+}
+.index-logo{
+	width: 136px;
+	margin-right: -136px;
+	display: inline-block;
+	line-height: 80px;
+	float: left;
+	
+}
+.index-logo img{
+	vertical-align: middle;
+}
+.index-nav-list{
+	float: left;
+	height: 80px;
+	line-height: 80px;
+	margin-left: 608px;
+}
+.index-nav-list li{
+	float: left;
+	font-size: 18px;
+}
+.index-nav-list li a{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 16px;
+	height:36px;
+	line-height: 36px;
+	color: #fff;
+
+}
+.index-nav-list li .index-active,
+.index-nav-list li a:hover{
+	color: #0082cb;
+}
+.index-nav-list-last{
+    margin-right: -20px;
+}
+/*bootstrap*/
+a:focus {
+ outline: none;
+}
+.navbar-collapse{
+	width: 1200px;
+	margin: 0 0 0 0px;
+
+}
+.navbar-brand {
+ padding: 0;
+}
+#myCarousel {
+ margin: 0 ;
+}
+.carousel-inner .item img {
+ margin: 0 auto;
+}
+.carousel-control {
+ font-size: 100px;
+}
+.navbar{
+	position: fixed;
+	/*left: 0;*/
+	top: 0;
+	/*right: 0;*/
+	margin: auto;
+	height: 80px;
+}
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+#navbar-collapse .navbar-nav>li>a{
+	color:#333;
+	padding: 0px 28px;
+	line-height: 80px;
+	font-size: 16px;
+}
+.navbar-brand img{
+	margin-top: 22px;
+}
+.carousel-indicators li{
+	margin: 4px;
+}
+
+.carousel-indicators .active{
+	margin: 4px;
+}
+.form-signin{
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+p{
+	display: inline-block;
+}
+.checkbox{
+	display: inline-block;
+}
+.box{
+	max-height:340px;
+	max-width: 330px;
+	background-color: rgba(0,0,0,.5); 
+}
+.bg-show{
+	background-color: #fff;
+	
+}
+.bg-show a{
+	color: #333 !important;
+}
+#navbar-collapse .navbar-nav li .nav-cont-list4{
+    padding-right: 0;
+}
+#nav a:hover{
+	color: #099fde !important;
+}
+.aActive{
+	color: #099fde !important;
+}
+.bg-show .aActive{
+	color: #099fde !important;
+}
+.container{
+	padding: 0;
+	width: 1200px;
+}
+#nav{
+	background-color: #fff;
+}
+/*二级导航*/
+.product-sec-nav{
+	width: 100%;
+	height: 40px;
+	background-color: #099fde;
+	margin-top: 80px;
+}
+.product-sec-nav-cont{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+}
+.product-sec-nav .product-sec-nav-cont span{
+	font-size: 14px;
+	color: #fff;
+	line-height: 40px;
+}
+.pro-phone-message{
+	float: right;
+	margin-right: 60px;
+}
+.product-search-box{
+	width: 240px;
+	height: 30px;
+	float: right;
+	overflow: hidden;
+	font-size: 0;
+	margin-top: 5px;
+}
+.product-search-box input{
+    width: 204px;
+    height: 30px;
+    background-color: #fff;
+    border:1px solid #ddd;
+    padding:0 10px;
+    color: #333;
+    font-size: 14px;
+    vertical-align: top;
+}
+.product-search{
+	font-size: 0;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border:1px solid #ddd;
+	background-color: #fff;
+}
+.product-search img{
+	width: 13px;
+	vertical-align: top;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+/*订单详情内容*/
+.ding-details-box{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.ding-details-box-title{
+	width: 1200px;
+	height: 50px;
+    background-color: #ddd;
+}
+.ding-details-box-title img{
+	margin-left: 20px;
+	vertical-align:top;
+	height:30px; 
+	margin-top: 10px;
+}
+.ding-details-box-title h1{
+	color: #333;
+	font-size:24px;
+	line-height: 50px;
+	display: inline-block; 
+	margin-left: 20px;
+}
+/*底部*/
+.btm-message-all{
+	width: 100%;
+	height:50px;
+	background-color: #363d44; 
+	min-width: 1200px;
+	margin-top: 20px;
+}
+.btm-message{
+	width: 1200px;
+	margin: 0 auto;
+	/*margin-right: -124px;*/
+}
+.btm-message span{
+	line-height: 50px;
+	font-size:16px;
+	color: #fff;
+	margin-right: 124px; 
+}
+#btm-message-last{
+	margin-right: -124px;
+}
+.index-advantage ul li:hover{
+    color: #0082cb;
+}
+.main .title{
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	color: #333;
+	padding-left: 20px;
+}
+.main .cont,
+.sec li{
+	background-color: #fff;
+	font-size: 0;
+}
+.main .cont div,
+.sec li div{
+	display: inline-block;
+	height: 54px;
+	width: 400px;
+}
+.main .cont .tit,
+.sec li .tit{
+	padding-left: 20px;
+	font-size: 14px;
+	color: #333;
+	font-size: 14px;
+	line-height: 54px;
+	vertical-align: top;
+}
+.main .cont .note,
+.sec li .note{
+	vertical-align: top;
+}
+.main .cont .note p,
+.sec li .note p{
+	display: block;
+	font-size: 14px;
+	color: #333;
+	line-height: 24px;
+	text-align: center;
+}
+.main .cont .opera span,
+.sec li .opera span{
+	float: right;
+	width: 60px;
+	font-size: 14px;
+	color: #333;
+	line-height: 20px;
+	margin-top: 17px;
+	text-align: center;
+	cursor: pointer;
+}
+.main .cont .opera .download,
+.sec li .opera .download{
+	color: #099fde;
+}
+.main .cont .opera .center,
+.sec li .opera .center{
+	width: 80px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-left: 1px solid #333;
+	border-right: 1px solid #333;
+}
+.sec>p{
+	font-size: 24px;
+	line-height: 24px;
+	margin-top: 14px;
+	margin-left: 20px;
+	color: #333;
+}
+.sec li{
+	margin-top: 10px;
+}

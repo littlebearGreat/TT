@@ -1,0 +1,337 @@
+/*导航*/
+body{
+	position: relative;
+	background-color: #f5f5f5;
+}
+.index-nav-box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:80px;
+	z-index: 2;
+}
+.index-nav{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+
+}
+.index-logo{
+	width: 136px;
+	margin-right: -136px;
+	display: inline-block;
+	line-height: 80px;
+	float: left;
+	
+}
+.index-logo img{
+	vertical-align: middle;
+}
+.index-nav-list{
+	float: left;
+	height: 80px;
+	line-height: 80px;
+	margin-left: 608px;
+}
+.index-nav-list li{
+	float: left;
+	font-size: 18px;
+}
+.index-nav-list li a{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 16px;
+	height:36px;
+	line-height: 36px;
+	color: #fff;
+
+}
+.index-nav-list li .index-active,
+.index-nav-list li a:hover{
+	color: #0082cb;
+}
+.index-nav-list-last{
+    margin-right: -20px;
+}
+/*bootstrap*/
+a:focus {
+ outline: none;
+}
+.navbar-collapse{
+	width: 1200px;
+	margin: 0 0 0 0px;
+
+}
+.navbar-brand {
+ padding: 0;
+}
+#myCarousel {
+ margin: 0 ;
+}
+.carousel-inner .item img {
+ margin: 0 auto;
+}
+.carousel-control {
+ font-size: 100px;
+}
+.navbar{
+	position: fixed;
+	/*left: 0;*/
+	top: 0;
+	/*right: 0;*/
+	margin: auto;
+	height: 80px;
+}
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+#navbar-collapse .navbar-nav>li>a{
+	color:#333;
+	padding: 0px 28px;
+	line-height: 80px;
+	font-size: 16px;
+}
+.navbar-brand img{
+	margin-top: 22px;
+}
+.carousel-indicators li{
+	margin: 4px;
+}
+
+.carousel-indicators .active{
+	margin: 4px;
+}
+.form-signin{
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+p{
+	display: inline-block;
+}
+.checkbox{
+	display: inline-block;
+}
+.box{
+	max-height:340px;
+	max-width: 330px;
+	background-color: rgba(0,0,0,.5); 
+}
+.bg-show{
+	background-color: #fff;
+	
+}
+.bg-show a{
+	color: #333 !important;
+}
+#navbar-collapse .navbar-nav li .nav-cont-list4{
+    padding-right: 0;
+}
+#nav a:hover{
+	color: #099fde !important;
+}
+.aActive{
+	color: #099fde !important;
+}
+.bg-show .aActive{
+	color: #099fde !important;
+}
+.container{
+	padding: 0;
+	width: 1200px;
+}
+#nav{
+	background-color: #fff;
+}
+/*二级导航*/
+.product-sec-nav{
+	width: 100%;
+	height: 40px;
+	background-color: #099fde;
+	margin-top: 80px;
+}
+.product-sec-nav-cont{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+}
+.product-sec-nav .product-sec-nav-cont span{
+	font-size: 14px;
+	color: #fff;
+	line-height: 40px;
+}
+.pro-phone-message{
+	float: right;
+	margin-right: 60px;
+}
+.product-search-box{
+	width: 240px;
+	height: 30px;
+	float: right;
+	overflow: hidden;
+	font-size: 0;
+	margin-top: 5px;
+}
+.product-search-box input{
+    width: 204px;
+    height: 30px;
+    background-color: #fff;
+    border:1px solid #ddd;
+    padding:0 10px;
+    color: #333;
+    font-size: 14px;
+    vertical-align: top;
+}
+.product-search{
+	font-size: 0;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border:1px solid #ddd;
+	background-color: #fff;
+}
+.product-search img{
+	width: 13px;
+	vertical-align: top;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+/*案例内容*/
+.ding-details-box{
+	width: 1200px;
+	margin: 0 auto;
+	/*margin-top: 20px;*/
+}
+.toubao-message-title{
+	color: #333;
+	font-size:24px;
+	line-height: 50px;
+	margin-left: 20px;
+}
+.toubao-message-header{
+	height: 50px;
+	background-color: #ddd;
+	line-height: 50px;
+	border:1px solid #ddd;
+}
+.toubao-message-header th{
+	text-align: center;
+}
+.toubao-message1{
+	line-height: 50px;
+	background-color: #fff;
+}
+.toubao-message2{
+	background-color: rgba(0,130,203,.15);
+}
+.toubao-message-name1{
+	text-align: center;
+	width: 200px;
+	border:1px solid #ddd;
+}
+.toubao-message-ID1{
+	text-align: center;
+	width: 200px;
+	border:1px solid #ddd;
+}
+.toubao-message-IDnum1{
+	text-align: center;
+	width: 180px;
+	border:1px solid #ddd;
+}
+.toubao-message-birth1{
+	text-align: center;
+	width: 300px;
+	border:1px solid #ddd;
+}
+.toubao-message-sex1{
+	text-align: center;
+    width: 166px;
+	border:1px solid #ddd;
+}
+.toubao-message-phone1{
+	text-align: center;
+	width: 154px;
+	border:1px solid #ddd;
+}
+.fanye-message{
+	width: 1200px;
+	height: 50px;
+	line-height: 50px;
+}
+.fanye-message .fanye-message-left{
+	float: left;
+	margin-left: 20px;
+}
+.fanye-message .fanye-message-left input{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	border-radius: 5px;
+	border:1px solid #ddd;
+	vertical-align: middle;
+}
+.fanye-message .fanye-message-left span{
+	color: #333;
+	font-size: 14px;
+	vertical-align:middle;
+}
+.fanye-message .fanye-message-right{
+	float: right;
+	margin-right: 20px;
+}
+.fanye-message-right a{
+	color: #333;
+	font-size: 14px;
+	padding:4px 12px;
+	border-radius: 5px;
+	border:1px solid #ddd; 
+	margin-left: 20px;
+}
+/*底部*/
+.btm-message-all{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height:50px;
+	background-color: #363d44; 
+	min-width: 1200px;
+	margin-top: 20px;
+}
+.btm-message{
+	width: 1200px;
+	margin: 0 auto;
+	/*margin-right: -124px;*/
+}
+.btm-message span{
+	line-height: 50px;
+	font-size:16px;
+	color: #fff;
+	margin-right: 124px; 
+}
+#btm-message-last{
+	margin-right: -124px;
+}
+.index-advantage ul li:hover{
+    color: #0082cb;
+}
+/*翻页*/
+.fanye{
+	text-align: right;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.pagination-sm>li>a, .pagination-sm>li>span{
+	padding:12px 24px;
+	color: #333;
+}
+.pagination-sm{
+	margin-top: 0;
+	border-radius: 0px;
+}

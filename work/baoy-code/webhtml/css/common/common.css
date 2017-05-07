@@ -1,0 +1,22 @@
+body,a,ul,li,img,p,input,h1,h2{
+	margin: 0;
+	padding:0;
+}
+body{
+	font-family: "microsoft Yahei";
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+li{
+	list-style: none;
+}
+.clearfix::before,
+.clearfix::after{
+        display: table;
+        content:"";
+}
+.clearfix::after{
+        clear: both;
+}

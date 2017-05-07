@@ -1,0 +1,421 @@
+body{
+	background-color: #f5f5f5;
+}
+a:hover{
+	text-decoration: none;
+	color: #0082cb;
+}
+a:link{
+	text-decoration: none;
+}
+.header1{
+	width: 100%;
+	height: 40px;
+	background-color: #eeeeee;
+}
+.header-ke-xin{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+.header-ke-xin-left{
+	float: left;
+}
+.header-ke-xin-left p{
+    color: #333;
+    font-size:14px;
+    line-height: 40px; 
+}
+.header-ke-xin-right{
+	float:right;
+	line-height: 40px; 
+}
+.header-ke-xin-right>span{
+	margin-left: 40px;
+}
+/*头部2*/
+.header2-box{
+	width: 100%;
+	height:114px;
+	background-color: #fff; 
+}
+.header2{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.header2-logo img{
+	width:206px;
+	vertical-align: top;
+	margin-top: 26px;
+}
+.header2-ipt{
+	display: inline-block;
+	font-size: 0;
+	margin-top: 32px;
+	margin-left: 162px;
+}
+.header2-ipt input{
+	display: inline-block;
+	width:435px;
+	height: 42px;
+	border:2px solid #f1a02d; 
+}
+.header2-sousuo{
+	display: inline-block;
+	width: 76px;
+	height: 42px;
+	border:2px solid #f1a02d;
+	background-color: #f1a02d;
+	outline: none;
+	vertical-align: middle;
+}
+.header2-sousuo img{
+	margin-top:10px;
+	margin-left: 24px; 
+}
+.header2-choose a{
+	color: #666;
+	font-size: 14px;
+	line-height: 34px;
+	margin-right: 30px;
+}
+.kehujingli{
+	float: right;
+	margin-top: 30px;
+	text-align: right;
+	cursor: pointer;
+}
+.kehujingli img{
+	margin-right:16px; 
+}
+.kehujingli p{
+	margin-top: 10px;
+	color: #f1a02d;
+	font-size:24px; 
+}
+.kehujingli span{
+	font-size:14px;
+	color: #666; 
+}
+/*账户弹窗*/
+.zhanghu-tan{
+	position: absolute;
+	left: 926px;
+	top: 39px;
+	width:100px;
+	border:1px solid #ddd;
+	background-color: #fff; 
+	font-size: 14px;
+	display: none;
+}
+.zhanghu-tan span{
+	display: block;
+	/*margin-left: 10px;*/
+	text-align: center;
+}
+.zhanghu-tan span:hover{
+	background-color: #099fde;
+	color: #fff;
+	cursor: pointer;
+}
+.zhanghu-tan1 span:hover{
+	background-color: #099fde;
+	color: #fff;
+	cursor: pointer;
+}
+.zhanghu-btn{
+	margin-left: 10px;
+	margin-right: 5px;
+}
+.zhanghu-tan1{
+	position: absolute;
+	left: 1038px;
+	top: 39px;
+	width:100px;
+	border:1px solid #ddd;
+	background-color: #fff; 
+	font-size: 14px;
+	display: none;
+	z-index: 200;
+}
+.zhanghu-tan1 span{
+	display: block;
+	/*margin-left: 10px;*/
+	text-align: center;
+}
+.khjlInfor{
+	position: absolute;
+	left: 918px;
+	top: 100px;
+	width: 282px;
+	height: 292px;
+	background-color: orange;
+	font-size: 0;
+	display: none;
+}
+.khjlInfor .box1{
+	display: inline-block;
+	width: 102px;
+	height: 102px;
+	border: 1px solid #333;
+	margin-top: 34px;
+	margin-left: 10px;
+}
+.khjlInfor .box2{
+	display: inline-block;
+	width: 102px;
+	height: 102px;
+	border: 1px solid #333;
+	margin-left: 10px;
+}
+.khjlInfor .box1L{
+	display: inline-block;
+	margin-top: 34px;
+	vertical-align: top;
+	margin-left: 12px;
+	width: 154px;
+}
+.khjlInfor .box2L{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 12px;
+	width: 154px;
+}
+.khjlInfor .box1L p,
+.khjlInfor .box2L p{
+	font-size: 12px;
+	line-height: 12px;
+}
+.choose-tiao-box .kActive{
+	background-color: #0082cb !important;
+	color: #fff;
+}
+.aaactive{
+	color: #0082cb;
+}
+/*头部3*/
+.header3{
+	width: 100%;
+	height:40px;
+	background-color: #099fde; 
+}
+.header3-cont{
+	width: 1200px;
+	margin: 0 auto;
+}
+.header3-cont p{
+	line-height: 40px;
+	color: #fff;
+}
+/*订单详情*/
+.ding-detail{
+	width: 1200px;
+	margin: 0 auto;
+}
+.ding-detail-title{
+	height: 50px;
+	color: #333;
+	font-size: 24px;
+	padding-left:20px;
+	line-height:50px;
+}
+.detail-list{
+	height: 50px;
+	background-color: #ddd;
+	border:1px solid #ddd;
+}
+.detail-list th{
+	text-align: center;
+}
+.detail-list-juti td{
+	height: 68px;
+	text-align: center;
+    border:1px solid #ddd;
+    background-color: #fff;
+}
+.detail-list-ding{
+	width: 234px;
+}
+.detail-list-ti{
+    width: 236px;
+}
+.detail-list-day{
+	width: 118px;
+}
+.detail-list-name{
+	width: 120px;
+}
+.detail-list-names{
+	width: 120px;
+}
+.detail-list-num{
+	width: 122px;
+}
+.detail-list-price{
+	width: 120px;
+}
+.detail-list-btn{
+	width: 124px;
+}
+/*支付平台*/
+.pay-pingtai-box{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #fff;
+	margin-top: 10px;
+}
+.pay-pingtai-title{
+	color: #333;
+	font-size: 24px;
+	line-height: 50px;
+	padding-left: 20px;
+}
+.pay-pingtai-fangshi{
+	overflow: hidden;
+	margin-left: 20px;
+}
+.pay-pingtai-fangshi li{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+/*支付按钮*/
+.pay-btn-box{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #fff;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.pay-btn{
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+.pay-btn span{
+	color: #333;
+	font-size:18px; 
+}
+.pay-btn strong{
+	color: #099fde;
+	font-size: 18px;
+}
+.pay-btn-click{
+    display: inline-block;
+    /*width:230px;*/
+    height: 50px;
+    border-radius: 5px;
+    background-color: #099fde;
+    color: #fff;
+    line-height: 50px; 
+    font-size: 18px;
+    padding-left:76px;
+    padding-right:76px; 
+    margin-top: 20px;
+}
+/*底部*/
+.btm-message-all{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height:50px;
+	background-color: #363d44; 
+	min-width: 1200px;
+}
+.btm-message{
+	width: 1200px;
+	margin: 0 auto;
+	/*margin-right: -124px;*/
+}
+.btm-message span{
+	line-height: 50px;
+	font-size:16px;
+	color: #fff;
+	margin-right: 124px; 
+}
+#btm-message-last{
+	margin-right: -124px;
+}
+.index-advantage ul li:hover{
+    color: #0082cb;
+}
+/*微信支付弹窗*/
+.wechat-pay-box{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background:url(../../images/wechat-pay.png) no-repeat;
+	background-size: 100% 100%;
+	z-index: 99999;
+}
+.wechat-pay-cont-box{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 384px;
+	height: 514px;
+    background-color: #b5b5b5;
+    overflow: hidden;
+}
+.wechat-pay-cont{
+	margin: 0 auto;
+	width: 364px;
+	height: 494px;
+	margin-top:10px; 
+}
+.wechat-pay-cont-title{
+	width: 364px;
+	height: 52px;
+	background-color: #363d45;
+}
+.wechat-pay-cont-title h1{
+	color: #fff;
+	font-size: 18px;
+	margin-left: 10px;
+	line-height: 52px;
+	float: left;
+}
+.wechat-pay-cont-title img{
+	float: right;
+	width: 18px;
+	text-align: right;
+	margin-right: 10px;
+    margin-top: 17px;
+}
+.wechat-pay-erweima{
+	width:364px;
+	height: 442px;
+	background-color: #fff;
+	text-align: center;
+	overflow: hidden; 
+}
+.wechat-pay-erweima .erweima-title{
+	color: #333;
+	font-size: 18px;
+	margin-top: 44px;
+	margin-bottom:22px; 
+}
+.wechat-pay-erweima img{
+	width: 216px;
+}
+.wechat-pay-tishi{
+	color: #fe0000;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.qita-pay a{
+	display: inline-block;
+    color: #333;
+    font-size: 14px;
+    padding:22px 116px;
+    border-top: 1px solid #ddd; 
+}

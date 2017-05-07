@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" charset="utf-8">
+	<title>查找订单</title>
+    <link rel="stylesheet" type="text/css" href="../Plugins/bootstrap/style/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/common/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/ding-find/ding-find.css">
+    <script type="text/javascript" src="../Plugins/Jquery2.1.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../Plugins/bootstrap/style/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/ding-find/ding-find.js"></script>
+</head>
+<body>
+    <!-- 以下是首页导航 -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="nav">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand" style="margin:0;padding:0;">
+                    <img src="../images/logo.png" alt="保游网">
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right nav-cont" style="margin-top:0;">
+                    <li>
+                        <a id="aaa" href="index.html">首页</a>
+                    </li>
+                    <li>
+                        <a  href="bao-product.html"> 保险产品</a>
+                    </li>
+                    <li>
+                        <a href="#">解决方案</a>
+                    </li>
+                    <li>
+                        <a class="aActive" href="ding-find.html"> 订单查询</a>
+                    </li>
+                    <li>
+                        <a class="nav-cont-list4" href="claims.html"> 理赔指南</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 下面是二级导航 -->
+    <div class="product-sec-nav">
+        <div class="product-sec-nav-cont">
+        	<span>您现在的位置：保游网>保险产品>所有产品>国内保险</span>
+        	<div class="product-search-box">
+        		<input type="text" placeholder="请输入关键字">
+        	    <a class="product-search" href=""><img src="../images/product-search.png"></a>
+        	</div>
+        	<span class="pro-phone-message">
+        		<img src="../images/product-phone.png">
+        		<span>4001-882-892</span>
+        	</span>
+        </div>	
+    </div>
+    <!-- 订单查询 -->
+    <div class="tou-liucheng-box">
+    	<div class="created-title-box">
+    	    <p class="created-title">订单查询</p>
+    	</div>
+    	<!-- 查询条件 -->
+    	<div class="created-choose-time">
+    		<div class="created-choose-time-title">
+    			<a href="">投保人查询</a>
+    			<span></span>
+    			<a href="">被保人查询</a>
+    		</div>
+    		<div class="created-choose-time-cont">
+	    		<div class="protectDate">
+	    		    <span>投保人证件：</span><input class="created-choose-time-start" type="text"> 
+	    		    <span class="overDate">投保人手机号：</span><input class="created-choose-time-over" type="text">
+	    		    <button class="get-phone-code">获取验证码</button>
+	    		    <span class="overDate">验证码：</span><input class="created-choose-time-over" type="text">
+	    		    <div class="find-btn-box">
+	    		    	<button class="find-btn">点击查询</button>
+	    		    </div>
+	    		    <div class="created-choose-message">
+		    			<span>温馨提示：尊敬的客户，您好！查询订单过程中如有任何问题请及时联系我们 </span>
+		    			<span class="phone-num">4001882892</span>
+		    		</div>
+	    		</div>
+	    	</div>
+    	</div>
+    	<!-- 查询结果 -->
+    	<div>
+    		<h1 class="find-result-title">查询结果</h1>
+    		<div>
+    			<table>
+    				<thead>
+    					<tr class="find-result-head">
+    						<th>投保产品</th>
+    						<th>被保人</th>
+    						<th>保费</th>
+    						<th>投保时间</th>
+    						<th>状态</th>
+    						<th>操作</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    				    <tr class="fanye-message">
+				    		<td colspan="7">
+								<div class="fanye-message-left">
+									<input type="checkbox">
+								    <span>所有订单</span>
+								</div>
+								<div class="fanye-message-right">
+									<a href="">上一页</a>
+									<a href="">下一页</a>
+								</div>
+						    </td>
+    				    </tr>
+    					<tr class="find-list1">
+    					    <td colspan="7">
+    							<div class="find-list1-left">
+    								<span class="find-list1-show"></span>
+	    							<span class="find-list1-dan">投保单号：537437436743654654</span>
+	    							<span class="find-list1-ren">投保人：胡婷婷</span>
+    							</div>
+    							<div class="find-list1-right">
+    								<a href="">
+    									<img src="../images/delete.png">
+    								</a>
+    							</div>
+    						</td>
+    					</tr>
+    					<tr class="find-list1-cont">
+    						<td class="find-list1-tm">
+    							<div class="ding-img">
+    								<img src="../images/ding-img.png">
+    							</div>
+    							<div class="ding-cont">
+    								<h3>"保游天下"高额保障计划一</h3>
+    								<span>保单号：</span>
+    							</div>
+    						</td>
+    						<td class="find-list1-ming">胡婷婷等</td>
+    						<td class="find-list1-price">￥25.00</td>
+    						<td class="find-list1-time">2016/10/8 17:41:49</td>
+    						<td class="find-list1-zhuang">未支付</td>
+    						<td class="find-list1-btn">
+    							<a href="ding-detail.html">查看详情</a><br>
+    							<a href="tou-pay.html">立即支付</a><br>
+                                <a href="javascript:;">修改订单</a><br>
+                                <a href="javascript:;">订单备注</a>
+    						</td>
+    					</tr>
+    					<tr class="find-list1-kong">
+    						<td colspan="7"></td>
+    					</tr>
+    					<tr class="find-list1">
+    					    <td colspan="7">
+    							<div class="find-list1-left">
+    								<span class="find-list1-show"></span>
+	    							<span class="find-list1-dan">投保单号：537437436743654654</span>
+	    							<span class="find-list1-ren">投保人：胡婷婷</span>
+    							</div>
+    							<div class="find-list1-right">
+    								<a href="">
+    									<img src="../images/delete.png">
+    								</a>
+    							</div>
+    						</td>
+    					</tr>
+    					<tr class="find-list1-cont">
+    						<td class="find-list1-tm">
+    							<div class="ding-img">
+    								<img src="../images/ding-img.png">
+    							</div>
+    							<div class="ding-cont">
+    								<h3>"保游天下"高额保障计划一</h3>
+    								<span>保单号：</span>
+    							</div>
+    						</td>
+    						<td class="find-list1-ming">胡婷婷等</td>
+    						<td class="find-list1-price">￥25.00</td>
+    						<td class="find-list1-time">2016/10/8 17:41:49</td>
+    						<td class="find-list1-zhuang">未支付</td>
+    						<td class="find-list1-btn">
+    							<a href="ding-detail.html">查看详情</a><br>
+    							<a href="tou-pay.html">立即支付</a><br>
+                                <a href="javascript:;">修改订单</a><br>
+                                <a href="javascript:;">订单备注</a>
+    						</td>
+    					</tr>
+    					<tr class="find-list1-kong">
+    						<td colspan="7"></td>
+    					</tr>
+    					<tr class="find-list1">
+    					    <td colspan="7">
+    							<div class="find-list1-left">
+    								<span class="find-list1-show"></span>
+	    							<span class="find-list1-dan">投保单号：537437436743654654</span>
+	    							<span class="find-list1-ren">投保人：胡婷婷</span>
+    							</div>
+    							<div class="find-list1-right">
+    								<a href="">
+    									<img src="../images/delete.png">
+    								</a>
+    							</div>
+    						</td>
+    					</tr>
+    					<tr class="find-list1-cont">
+    						<td class="find-list1-tm">
+    							<div class="ding-img">
+    								<img src="../images/ding-img.png">
+    							</div>
+    							<div class="ding-cont">
+    								<h3>"保游天下"高额保障计划一</h3>
+    								<span>保单号：</span>
+    							</div>
+    						</td>
+    						<td class="find-list1-ming">胡婷婷等</td>
+    						<td class="find-list1-price">￥25.00</td>
+    						<td class="find-list1-time">2016/10/8 17:41:49</td>
+    						<td class="find-list1-zhuang">未支付</td>
+    						<td class="find-list1-btn">
+    							<a href="ding-detail.html">查看详情</a><br>
+    							<a href="tou-pay.html">立即支付</a><br>
+                                <a href="javascript:;">修改订单</a><br>
+                                <a href="javascript:;">订单备注</a>
+    						</td>
+    					</tr>
+    					<tr class="find-list1-kong">
+    						<td colspan="7"></td>
+    					</tr>
+    				</tbody>
+    			</table>
+    		</div>
+    	</div>
+    </div>
+    <!-- 底部信息栏 -->
+    <div class="btm-message-all">
+        <div class="btm-message">
+            <span>保游网 | 粤ICP备15077157号 © 2016 深圳市保游网络科技有限公司</span>
+            <span>中元保险经纪有限公司</span>
+            <span id="btm-message-last">保险业务经营许可证:260431000000800</span> 
+        </div>
+    </div>
+</body>
+</html>
