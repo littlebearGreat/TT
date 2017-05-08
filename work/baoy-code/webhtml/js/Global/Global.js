@@ -52,4 +52,14 @@ window.onload = function(){
 	selectT('.myOrder','.zhanghu-tan1'); /*我的订单*/
 	selectT('.kehujingli','.khjlInfor'); /*客户经理*/
 
+	// 颜色切换
+	$('.colorCheck').children('input').click(function(){
+		$('.se-choose').children().css('display','none');
+		if ($(this).index() == 0) {
+			$('.se-choose').children('.list').css('display','block');
+		}else{
+			$('.se-choose').children('.more').css('display','block');
+		}
+	})
+
 }

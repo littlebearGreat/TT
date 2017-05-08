@@ -51,25 +51,4 @@ $(function(){
 	selectT('.myAccount','.zhanghu-tan'); /*我的账户*/
 	selectT('.myOrder','.zhanghu-tan1'); /*我的订单*/
 	selectT('.kehujingli','.khjlInfor'); /*客户经理*/
-
-	$('#changeM').click(function(){
-		if ($(this).text() == '确认修改') {
-			$(this).text('修改资料');
-			$('#mCont').css('display','none');
-		}else{
-			$(this).text('确认修改');
-			$('#mCont').css('display','block');
-		};
-	})
-
-	$('.changeMess').click(function(){
-		var thi = $(this);
-		if (thi.text() == '修改资料') {
-			thi.text('确认修改');
-			thi.parent().parent().siblings().css('display','block');
-		}else{
-			thi.text('修改资料');
-			thi.parent().parent().siblings().css('display','none');
-		}
-	})
 })

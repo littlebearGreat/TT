@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" charset="utf-8">
-	<title>产品推荐</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" charset="utf-8">
+    <title>产品推荐</title>
     <link rel="stylesheet" type="text/css" href="../Plugins/bootstrap/style/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="../css/common/common.css">
-	<link rel="stylesheet" type="text/css" href="../css/product-tj/product-tj.css">
+    <link rel="stylesheet" type="text/css" href="../css/common/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/ad-guanli/ad-guanli.css">
     <script type="text/javascript" src="../Plugins/Jquery2.1.2/jquery.min.js"></script>
     <script type="text/javascript" src="../Plugins/Jquery2.1.2/jquery.twbsPagination.min.js"></script>
     <script type="text/javascript" src="../Plugins/bootstrap/style/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../js/product-tj/product-tj.js"></script>
+    <script type="text/javascript" src="../js/ad-guanli/ad-guanli.js"></script>
 </head>
 <body>
     <!-- 头部 -->
     <div class="header">
         <!-- 头部1 -->
-    	<div class="header1">
+        <div class="header1">
             <div class="header-ke-xin">
                 <div class="header-ke-xin-left">
                     <p>您好，13537655620欢迎来到保游网</p>
@@ -26,8 +26,6 @@
                         <img src="../images/xiala.png">
                     </span>
                     <div class="zhanghu-tan">
-                        <a class="zhanghu-btn" href="javascript:;">我的账户</a>
-                        <img src="../images/xiala.png">
                         <span>我的钱包</span>
                         <span>我的收藏</span>
                         <span>我的代金券</span>
@@ -37,8 +35,6 @@
                         <img src="../images/xiala.png">
                     </span>
                     <div class="zhanghu-tan1">
-                        <a class="zhanghu-btn" href="javascript:;">我的订单</a>
-                        <img src="../images/xiala.png">
                         <span>我的钱包</span>
                         <span>我的收藏</span>
                         <span>我的代金券</span>
@@ -74,7 +70,7 @@
                 <p>13537655620</p>
             </div>
             <div class="khjlInfor">
-                <div>
+                <div id="khjlInfor-t">
                     <div class="box1"></div>
                     <div class="box1L">
                         <p style="margin-top: 12px;">您的客户经理:胡婷婷</p>
@@ -94,15 +90,15 @@
         </div>
         <!-- 头部3 -->
         <div class="header3">
-        	<div class="header3-cont">
-        		<p>当前的位置：保游网>保险产品</p>
-        	</div>
+            <div class="header3-cont">
+                <p>当前的位置：保游网>CPS站点配置>产品推荐</p>
+            </div>
         </div>
     </div>
     <!-- 内容 -->  
     <div class="cont-list">
         <!-- 左边内容 -->
-    	<div class="cont-list-left">
+        <div class="cont-list-left">
             <div class="cont-list-left-title">
                 <img src="../images/chanyufu.png">
                 <h1>产品与服务</h1>
@@ -170,39 +166,80 @@
                 </li>
             </ul>
         </div>
-    	<!-- 右边内容 -->
-    	<div class="product-cont-right">
-            <div class="message-title">
-            	<h1>头尾更换</h1>
+        <!-- 右边内容 -->
+        <div class="product-cont-right">
+            <div class="add-btn">
+                <a href="product-tj1.html">
+                    <img src="../images/add.png">
+                    <span style="color: #fff;">新增广告</span>
+                </a>
             </div>
-            <div class="product-message">
-            	<div class="product-message-l">
-            		<span>产品类别</span>
-            		<span>产品类别</span>
-            		<span>产品类别</span>
-            	</div>
-            	<div class="product-message-r">
-            		<select>
-            			<option></option>
-            		</select>
-            		<select>
-            			<option></option>
-            		</select>
-            		<span class="product-message-r-btn">
-            			<span>运动</span>
-            			<span>自定义</span>
-            		</span>
-            		<div class="product-list">
-            			<ul>
-            				<li><img src="../images/product1.png"></li>
-            				<li><img src="../images/product1.png"></li>
-            				<li><img src="../images/product1.png"></li>
-            				<li><img src="../images/product1.png"></li>
-            				<li><img src="../images/product1.png"></li>
-            			</ul>
-            		</div>
-            	</div>
-            	<button class="bao-btn">保存</button>
+            <div>
+                <table>
+                    <thead>
+                        <tr class="find-result-head">
+                            <th>序号</th>
+                            <th>图片</th>
+                            <th>广告标题</th>
+                            <th>广告链接</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="fanye-message">
+                            <td colspan="7">
+                                <div class="fanye-message-left">
+                                    <input type="checkbox">
+                                    <span>所有订单</span>
+                                </div>
+                                <div class="fanye-message-right">
+                                    <a href="javascript:;">上一页</a>
+                                    <a href="javascript:;">下一页</a>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                        <tr class="find-list1-cont">
+                            
+                            <td class="find-list1-ming">1</td>
+                            <td class="find-list1-tm">
+                                <div class="ding-img">
+                                    <img src="../images/ad1.png">
+                                </div>
+                            </td>
+                            <td class="find-list1-price">￥25.00</td>
+                            <td class="find-list1-time">2016/10/8 17:41:49</td>
+                            <td class="find-list1-zhuang">未支付</td>
+                        </tr>
+                        <tr class="find-list1-cont">
+                            
+                            <td class="find-list1-ming">1</td><td class="find-list1-tm">
+                                <div class="ding-img">
+                                    <img src="../images/ad1.png">
+                                </div>
+                            </td>
+                            <td class="find-list1-price">￥25.00</td>
+                            <td class="find-list1-time">2016/10/8 17:41:49</td>
+                            <td class="find-list1-zhuang">未支付</td>
+                        </tr>
+                        <tr class="find-list1-cont">
+                            
+                            <td class="find-list1-ming">1</td><td class="find-list1-tm">
+                                <div class="ding-img">
+                                    <img src="../images/ad1.png">
+                                </div>
+                            </td>
+                            <td class="find-list1-price">￥25.00</td>
+                            <td class="find-list1-time">2016/10/8 17:41:49</td>
+                            <td class="find-list1-zhuang">未支付</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- 翻页 -->
+            <div class="fanye">
+                <ul id="pagination-demo" class="pagination-sm">
+                </ul>
             </div>
         </div>
     </div>

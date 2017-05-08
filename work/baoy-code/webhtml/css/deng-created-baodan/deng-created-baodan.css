@@ -8,6 +8,12 @@ a:hover{
 a:link{
 	text-decoration: none;
 }
+input{
+	border:1px solid #ddd;
+}
+select{
+	border:1px solid #ddd;
+}
 .header1{
 	width: 100%;
 	height: 40px;
@@ -108,6 +114,7 @@ a:link{
 	background-color: #fff; 
 	font-size: 14px;
 	display: none;
+	z-index: 200;
 }
 .zhanghu-tan span{
 	display: block;
@@ -150,7 +157,7 @@ a:link{
 	top: 100px;
 	width: 282px;
 	height: 292px;
-	background-color: orange;
+	background:url(../../images/message-btm.png);
 	font-size: 0;
 	display: none;
 }
@@ -158,7 +165,7 @@ a:link{
 	display: inline-block;
 	width: 102px;
 	height: 102px;
-	border: 1px solid #333;
+	border: 1px solid #ddd;
 	margin-top: 34px;
 	margin-left: 10px;
 }
@@ -166,7 +173,7 @@ a:link{
 	display: inline-block;
 	width: 102px;
 	height: 102px;
-	border: 1px solid #333;
+	border: 1px solid #ddd;
 	margin-left: 10px;
 }
 .khjlInfor .box1L{

@@ -520,3 +520,15 @@ p{
 .index-advantage ul li:hover{
     color: #0082cb;
 }
+/*翻页*/
+.fanye{
+	text-align: right;
+	width: 1200px;
+	margin: 0 auto;
+}
+.pagination-sm>li>a, .pagination-sm>li>span{
+	padding:12px 24px;
+}
+.pagination-sm{
+	margin-top: 0;
+}

@@ -3,6 +3,18 @@ $(function(){
     	$(this).siblings().removeClass('find-btn');
     	$(this).addClass('find-btn');
     })
+    /*翻页*/
+	$('#pagination-demo').twbsPagination({
+        totalPages: 35,
+        visiblePages:7,
+        first:'首页',
+        prev:'上一页',
+        next:'下一页',
+        last:'末页',
+        onPageClick: function (event, page) {
+            $('#page-content').text('Page ' + page);
+        }
+    });
     /*左导航切换*/
     $(".cont-list-left-choose").click(function(){
 		$(this).parent().siblings().children("ul").hide();

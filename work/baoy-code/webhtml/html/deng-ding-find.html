@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/common/common.css">
 	<link rel="stylesheet" type="text/css" href="../css/deng-ding-find/deng-ding-find.css">
     <script type="text/javascript" src="../Plugins/Jquery2.1.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../Plugins/Jquery2.1.2/jquery.twbsPagination.min.js"></script>
     <script type="text/javascript" src="../Plugins/bootstrap/style/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/deng-ding-find/deng-ding-find.js"></script>
 </head>
@@ -25,8 +26,8 @@
                         <img src="../images/xiala.png">
                     </span>
                     <div class="zhanghu-tan">
-                        <a class="zhanghu-btn" href="javascript:;">我的账户</a>
-                        <img src="../images/xiala.png">
+                        <!-- <a class="zhanghu-btn" href="javascript:;">我的账户</a>
+                        <img src="../images/xiala.png"> -->
                         <span>我的钱包</span>
                         <span>我的收藏</span>
                         <span>我的代金券</span>
@@ -36,8 +37,8 @@
                         <img src="../images/xiala.png">
                     </span>
                     <div class="zhanghu-tan1">
-                        <a class="zhanghu-btn" href="javascript:;">我的订单</a>
-                        <img src="../images/xiala.png">
+                        <!-- <a class="zhanghu-btn" href="javascript:;">我的订单</a>
+                        <img src="../images/xiala.png"> -->
                         <span>我的钱包</span>
                         <span>我的收藏</span>
                         <span>我的代金券</span>
@@ -94,7 +95,7 @@
         <!-- 头部3 -->
         <div class="header3">
         	<div class="header3-cont">
-        		<p>当前的位置：保游网>保险产品</p>
+        		<p>当前的位置：保游网>订单管理</p>
         	</div>
         </div>
     </div>
@@ -235,8 +236,11 @@
     							</div>
     							<div class="find-list1-right">
     								<a href="javascript:;">
-    									<img src="../images/delete.png">
+    									<img src="../images/xiugai.png">
     								</a>
+                                    <a href="javascript:;">
+                                        <img src="../images/delete.png">
+                                    </a>
     							</div>
     						</td>
     					</tr>
@@ -258,7 +262,6 @@
     						<td class="find-list1-btn">
     							<a href="deng-bao-detail.html">查看详情</a><br>
     							<a href="deng-tou-pay.html">立即支付</a><br>
-                                <a href="javascript:;">修改订单</a><br>
                                 <a href="javascript:;">订单备注</a>
     						</td>
     					</tr>
@@ -274,8 +277,11 @@
     							</div>
     							<div class="find-list1-right">
     								<a href="javascript:;">
-    									<img src="../images/delete.png">
+    									<img src="../images/xiugai.png">
     								</a>
+                                    <a href="javascript:;">
+                                        <img src="../images/delete.png">
+                                    </a>
     							</div>
     						</td>
     					</tr>
@@ -296,7 +302,6 @@
     						<td class="find-list1-btn">
     							<a href="deng-bao-detail.html">查看详情</a><br>
     							<a href="deng-tou-pay.html">立即支付</a><br>
-                                <a href="javascript:;">修改订单</a><br>
                                 <a href="javascript:;">订单备注</a>
     						</td>
     					</tr>
@@ -312,8 +317,11 @@
     							</div>
     							<div class="find-list1-right">
     								<a href="javascript:;">
-    									<img src="../images/delete.png">
+    									<img src="../images/xiugai.png">
     								</a>
+                                    <a href="javascript:;">
+                                        <img src="../images/delete.png">
+                                    </a>
     							</div>
     						</td>
     					</tr>
@@ -334,7 +342,6 @@
     						<td class="find-list1-btn">
     							<a href="deng-bao-detail.html">查看详情</a><br>
     							<a href="deng-tou-pay.html">立即支付</a><br>
-                                <a href="javascript:;">修改订单</a><br>
                                 <a href="javascript:;">订单备注</a>
     						</td>
     					</tr>
@@ -344,6 +351,11 @@
     				</tbody>
     			</table>
     		</div>
+            <!-- 翻页 -->
+            <div class="fanye">
+                <ul id="pagination-demo" class="pagination-sm">
+                </ul>
+            </div>
     	</div>
     </div>
             

@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/common/common.css">
 	<link rel="stylesheet" type="text/css" href="../css/fu-jiesuan/fu-jiesuan.css">
     <script type="text/javascript" src="../Plugins/Jquery2.1.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../Plugins/Jquery2.1.2/jquery.twbsPagination.min.js"></script>
     <script type="text/javascript" src="../Plugins/bootstrap/style/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/fu-jiesuan/fu-jiesuan.js"></script>
 </head>
@@ -25,8 +26,8 @@
                         <img src="../images/xiala.png">
                     </span>
                     <div class="zhanghu-tan">
-                        <a class="zhanghu-btn" href="javascript:;">我的账户</a>
-                        <img src="../images/xiala.png">
+                        <!-- <a class="zhanghu-btn" href="javascript:;">我的账户</a>
+                        <img src="../images/xiala.png"> -->
                         <span>我的钱包</span>
                         <span>我的收藏</span>
                         <span>我的代金券</span>
@@ -36,8 +37,8 @@
                         <img src="../images/xiala.png">
                     </span>
                     <div class="zhanghu-tan1">
-                        <a class="zhanghu-btn" href="javascript:;">我的订单</a>
-                        <img src="../images/xiala.png">
+                        <!-- <a class="zhanghu-btn" href="javascript:;">我的订单</a>
+                        <img src="../images/xiala.png"> -->
                         <span>我的钱包</span>
                         <span>我的收藏</span>
                         <span>我的代金券</span>
@@ -209,7 +210,7 @@
                         <span class="last">上一页</span>
                     </td>
                 </tr>
-                <tr>
+                <tr class="hang-active">
                     <td class="date">2016/10/8 17:41:49</td>
                     <td class="zq"></td>
                     <td class="dx"></td>
@@ -218,7 +219,7 @@
                     <td class="hyf"></td>
                     <td class="jsuan">已结算</td>
                 </tr>
-                <tr class="double">
+                <tr class="hang-active">
                     <td class="date">2016/10/8 17:41:49</td>
                     <td class="zq"></td>
                     <td class="dx"></td>
@@ -227,7 +228,7 @@
                     <td class="hyf"></td>
                     <td class="jsuan">已结算</td>
                 </tr>
-                <tr>
+                <tr class="hang-active">
                     <td class="date">2016/10/8 17:41:49</td>
                     <td class="zq"></td>
                     <td class="dx"></td>
@@ -236,7 +237,7 @@
                     <td class="hyf"></td>
                     <td class="jsuan">已结算</td>
                 </tr>
-                <tr class="double">
+                <tr class="hang-active">
                     <td class="date">2016/10/8 17:41:49</td>
                     <td class="zq"></td>
                     <td class="dx"></td>
@@ -245,7 +246,7 @@
                     <td class="hyf"></td>
                     <td class="jsuan">已结算</td>
                 </tr>
-                <tr>
+                <tr class="hang-active">
                     <td class="date">2016/10/8 17:41:49</td>
                     <td class="zq"></td>
                     <td class="dx"></td>
@@ -255,6 +256,11 @@
                     <td class="jsuan">已结算</td>
                 </tr>
             </table>
+            <!-- 翻页 -->
+            <div class="fanye">
+                <ul id="pagination-demo" class="pagination-sm">
+                </ul>
+            </div>
             <div class="note">
                 <p class="tit">付款规则</p>
                 <div class="box">
@@ -264,7 +270,7 @@
                     <p class="last">已向银行安排付款，银行正在处理，请耐心等待。</p>
                 </div>
             </div>
-            <div class="note">
+            <div class="note" style="margin-bottom: 20px;">
                 <p class="tit">付款规则</p>
                 <div class="box">
                     <p>1. 最低付款金额为100元（含）如果累计未结算金额达到100元，您可以提交结算申请。</p>

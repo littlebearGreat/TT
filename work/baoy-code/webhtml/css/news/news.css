@@ -178,8 +178,24 @@ p{
 	font-size: 24px;
 }
 .news-list-box{
-
+	height: 644px;
 	margin-top: 70px;
+	overflow: hidden;
+	position: relative;
+}
+.news-list-box .picBox{
+	font-size: 0;
+	width: 3600px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.news-list-box .picBox>div{
+	display: inline-block;
+	vertical-align: top;
+}
+.news-list-box .qiehuan-btn{
+	margin-top: 524px;
 }
 .news-list ul{
 	overflow: hidden;

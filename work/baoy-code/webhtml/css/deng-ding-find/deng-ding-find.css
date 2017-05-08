@@ -108,6 +108,7 @@ a:link{
 	background-color: #fff; 
 	font-size: 14px;
 	display: none;
+	z-index: 200;
 }
 .zhanghu-tan span{
 	display: block;
@@ -150,7 +151,7 @@ a:link{
 	top: 100px;
 	width: 282px;
 	height: 292px;
-	background-color: orange;
+	background:url(../../images/message-btm.png);
 	font-size: 0;
 	display: none;
 }
@@ -158,7 +159,7 @@ a:link{
 	display: inline-block;
 	width: 102px;
 	height: 102px;
-	border: 1px solid #333;
+	border: 1px solid #ddd;
 	margin-top: 34px;
 	margin-left: 10px;
 }
@@ -166,7 +167,7 @@ a:link{
 	display: inline-block;
 	width: 102px;
 	height: 102px;
-	border: 1px solid #333;
+	border: 1px solid #ddd;
 	margin-left: 10px;
 }
 .khjlInfor .box1L{
@@ -432,6 +433,18 @@ a:link{
 	height: 10px;
 	background-color: #f5f5f5;
 }
+/*翻页*/
+.fanye{
+	text-align: right;
+	width: 954px;
+	margin: 20px auto;
+}
+.pagination-sm>li>a, .pagination-sm>li>span{
+	padding:12px 24px;
+}
+.pagination-sm{
+	margin-top: 0;
+}
 /*底部*/
 .bottom-all{
 	width: 100%;
@@ -651,6 +664,9 @@ a:link{
 .find-list1-right{
 	float: right;
 	margin-right: 20px;
+}
+.find-list1-right img{
+	margin-left: 20px;
 }
 .find-list1-cont{
 	width: 1200px;

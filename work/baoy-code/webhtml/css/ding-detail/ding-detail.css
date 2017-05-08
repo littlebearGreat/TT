@@ -374,6 +374,9 @@ p{
 .toubao-message1{
 	line-height: 50px;
 }
+.toubao-message1:hover{
+	background-color: rgba(0,130,203,.15);
+}
 .toubao-message-name1{
 	text-align: center;
 	width: 136px;
@@ -442,6 +445,18 @@ p{
 	border-radius: 5px;
 	border:1px solid #ddd; 
 	margin-left: 20px;
+}
+/*翻页*/
+.fanye{
+	text-align: right;
+	width: 1200px;
+	margin: 20px auto;
+}
+.pagination-sm>li>a, .pagination-sm>li>span{
+	padding:12px 24px;
+}
+.pagination-sm{
+	margin-top: 0;
 }
 /*底部*/
 .btm-message-all{

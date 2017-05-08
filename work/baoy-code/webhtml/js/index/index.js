@@ -84,18 +84,38 @@ window.onload = function(){
 			ul.children('li').eq(0).appendTo(ul);
 		},3000);
 	})
-	/*注册弹窗*/
+	/*注册弹窗关闭*/
 	$(".tui").click(function(){
 		$(".alert").css("display","none");
+		$('.zhuce-right-cont').css('display','none');
 	})
+	// 免费注册
 	$(".index-login-register").click(function(){
 		$(".alert").css("display","block");
+		$('.zhuce-right-cont').eq(0).css('display','block');
 	})
+	// 注册确认按钮
+	$('#register').click(function(){
+		$('.zhuce-right-cont').eq(0).css('display','none');
+		$('.zhuce-right-cont').eq(1).css('display','block');
+	})
+
+	// 找回密码
+	$('.index-find-mima').click(function(){
+		$(".alert").css("display","block");
+		$('.zhuce-right-cont').eq(2).css('display','block');
+	})
+
+	// 找回密码确认按钮
+	$('#submit').click(function(){
+		$('.zhuce-right-cont').eq(2).css('display','none');
+		$('.zhuce-right-cont').eq(3).css('display','block');
+	})
+
+	// 底部注册按钮
 	$(".Register-now").click(function(){
 		$(".alert").css("display","block");
+		$('.zhuce-right-cont').eq(0).css('display','block');
 	})
-	/*找回密码*/
-	$(".index-find-mima").click(function(){
-		
-	})
+
 }

@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/common/common.css">
 	<link rel="stylesheet" type="text/css" href="../css/ding-find/ding-find.css">
     <script type="text/javascript" src="../Plugins/Jquery2.1.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../Plugins/Jquery2.1.2/jquery.twbsPagination.min.js"></script>
     <script type="text/javascript" src="../Plugins/bootstrap/style/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/ding-find/ding-find.js"></script>
 </head>
@@ -49,7 +50,7 @@
     <!-- 下面是二级导航 -->
     <div class="product-sec-nav">
         <div class="product-sec-nav-cont">
-        	<span>您现在的位置：保游网>保险产品>所有产品>国内保险</span>
+        	<span>您现在的位置：保游网>订单查询</span>
         	<div class="product-search-box">
         		<input type="text" placeholder="请输入关键字">
         	    <a class="product-search" href=""><img src="../images/product-search.png"></a>
@@ -68,9 +69,9 @@
     	<!-- 查询条件 -->
     	<div class="created-choose-time">
     		<div class="created-choose-time-title">
-    			<a href="">投保人查询</a>
+    			<a class="protectDate-btn" href="javascript:;" style="color: #0082cb;">投保人查询</a>
     			<span></span>
-    			<a href="">被保人查询</a>
+    			<a href="javascript:;" class="protectDate-B-btn">被保人查询</a>
     		</div>
     		<div class="created-choose-time-cont">
 	    		<div class="protectDate">
@@ -86,6 +87,17 @@
 		    			<span class="phone-num">4001882892</span>
 		    		</div>
 	    		</div>
+                <div class="protectDate-B"  style="display: none;">
+                    <span>投保人证件：</span><input class="created-choose-time-start" type="text"> 
+                    <span class="overDate">投保人姓名：</span><input class="created-choose-time-over" type="text">
+                    <div class="find-btn-box">
+                        <button class="find-btn">点击查询</button>
+                    </div>
+                    <div class="created-choose-message">
+                        <span>温馨提示：尊敬的客户，您好！查询订单过程中如有任何问题请及时联系我们 </span>
+                        <span class="phone-num">4001882892</span>
+                    </div>
+                </div>
 	    	</div>
     	</div>
     	<!-- 查询结果 -->
@@ -125,8 +137,11 @@
     							</div>
     							<div class="find-list1-right">
     								<a href="">
-    									<img src="../images/delete.png">
+    									<img src="../images/xiugai.png">
     								</a>
+                                    <a href="">
+                                        <img src="../images/delete.png">
+                                    </a>
     							</div>
     						</td>
     					</tr>
@@ -147,7 +162,6 @@
     						<td class="find-list1-btn">
     							<a href="ding-detail.html">查看详情</a><br>
     							<a href="tou-pay.html">立即支付</a><br>
-                                <a href="javascript:;">修改订单</a><br>
                                 <a href="javascript:;">订单备注</a>
     						</td>
     					</tr>
@@ -162,6 +176,9 @@
 	    							<span class="find-list1-ren">投保人：胡婷婷</span>
     							</div>
     							<div class="find-list1-right">
+                                    <a href="">
+                                        <img src="../images/xiugai.png">
+                                    </a>
     								<a href="">
     									<img src="../images/delete.png">
     								</a>
@@ -185,7 +202,6 @@
     						<td class="find-list1-btn">
     							<a href="ding-detail.html">查看详情</a><br>
     							<a href="tou-pay.html">立即支付</a><br>
-                                <a href="javascript:;">修改订单</a><br>
                                 <a href="javascript:;">订单备注</a>
     						</td>
     					</tr>
@@ -200,6 +216,9 @@
 	    							<span class="find-list1-ren">投保人：胡婷婷</span>
     							</div>
     							<div class="find-list1-right">
+                                    <a href="">
+                                        <img src="../images/xiugai.png">
+                                    </a>
     								<a href="">
     									<img src="../images/delete.png">
     								</a>
@@ -223,7 +242,6 @@
     						<td class="find-list1-btn">
     							<a href="ding-detail.html">查看详情</a><br>
     							<a href="tou-pay.html">立即支付</a><br>
-                                <a href="javascript:;">修改订单</a><br>
                                 <a href="javascript:;">订单备注</a>
     						</td>
     					</tr>
@@ -234,6 +252,11 @@
     			</table>
     		</div>
     	</div>
+        <!-- 翻页 -->
+        <div class="fanye">
+            <ul id="pagination-demo" class="pagination-sm">
+            </ul>
+        </div>
     </div>
     <!-- 底部信息栏 -->
     <div class="btm-message-all">

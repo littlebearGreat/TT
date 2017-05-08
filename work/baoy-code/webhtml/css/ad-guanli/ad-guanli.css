@@ -108,6 +108,7 @@ a:link{
 	background-color: #fff; 
 	font-size: 14px;
 	display: none;
+	z-index: 200;
 }
 .zhanghu-tan span{
 	display: block;
@@ -115,12 +116,12 @@ a:link{
 	text-align: center;
 }
 .zhanghu-tan span:hover{
-	background-color: #099fde;
+	background-color: #0082cb;
 	color: #fff;
 	cursor: pointer;
 }
 .zhanghu-tan1 span:hover{
-	background-color: #099fde;
+	background-color: #0082cb;
 	color: #fff;
 	cursor: pointer;
 }
@@ -150,15 +151,18 @@ a:link{
 	top: 100px;
 	width: 282px;
 	height: 292px;
-	background-color: orange;
+	background:url(../../images/message-btm.png);
 	font-size: 0;
 	display: none;
+}
+#khjlInfor-t{
+	margin-bottom: 1px solid #ddd;
 }
 .khjlInfor .box1{
 	display: inline-block;
 	width: 102px;
 	height: 102px;
-	border: 1px solid #333;
+	border: 1px solid #ddd;
 	margin-top: 34px;
 	margin-left: 10px;
 }
@@ -166,7 +170,7 @@ a:link{
 	display: inline-block;
 	width: 102px;
 	height: 102px;
-	border: 1px solid #333;
+	border: 1px solid #ddd;
 	margin-left: 10px;
 }
 .khjlInfor .box1L{
@@ -430,6 +434,18 @@ a:link{
 	margin-left: 10px;
 	margin-top: 8px;
 	vertical-align: middle;
+}
+/*翻页*/
+.fanye{
+	text-align: right;
+	width: 954px;
+	margin: 20px auto;
+}
+.pagination-sm>li>a, .pagination-sm>li>span{
+	padding:12px 24px;
+}
+.pagination-sm{
+	margin-top: 0;
 }
 /*底部*/
 .btm-message-all{

@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/common/common.css">
 	<link rel="stylesheet" type="text/css" href="../css/mingxi/mingxi.css">
     <script type="text/javascript" src="../Plugins/Jquery2.1.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../Plugins/Jquery2.1.2/jquery.twbsPagination.min.js"></script>
     <script type="text/javascript" src="../Plugins/bootstrap/style/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/mingxi/mingxi.js"></script>
 </head>
@@ -25,8 +26,8 @@
                         <img src="../images/xiala.png">
                     </span>
                     <div class="zhanghu-tan">
-                        <a class="zhanghu-btn" href="javascript:;">我的账户</a>
-                        <img src="../images/xiala.png">
+                        <!-- <a class="zhanghu-btn" href="javascript:;">我的账户</a>
+                        <img src="../images/xiala.png"> -->
                         <span>我的钱包</span>
                         <span>我的收藏</span>
                         <span>我的代金券</span>
@@ -36,8 +37,8 @@
                         <img src="../images/xiala.png">
                     </span>
                     <div class="zhanghu-tan1">
-                        <a class="zhanghu-btn" href="javascript:;">我的订单</a>
-                        <img src="../images/xiala.png">
+                        <!-- <a class="zhanghu-btn" href="javascript:;">我的订单</a>
+                        <img src="../images/xiala.png"> -->
                         <span>我的钱包</span>
                         <span>我的收藏</span>
                         <span>我的代金券</span>
@@ -94,7 +95,7 @@
         <!-- 头部3 -->
         <div class="header3">
         	<div class="header3-cont">
-        		<p>当前的位置：保游网>保险产品</p>
+        		<p>当前的位置：我的钱包>收支明细</p>
         	</div>
         </div>
     </div>
@@ -203,7 +204,7 @@
                         <span class="last">上一页</span>
                     </td>
                 </tr>
-                <tr>
+                <tr class="active">
                     <td class="date">2016/10/8 17:41:49</td>
                     <td class="zq"></td>
                     <td class="dx"></td>
@@ -211,7 +212,7 @@
                     <td class="sk">2.50</td>
                     <td class="hyf"></td>
                 </tr>
-                <tr class="double">
+                <tr class="double active">
                     <td class="date">2016/10/8 17:41:49</td>
                     <td class="zq"></td>
                     <td class="dx"></td>
@@ -219,7 +220,7 @@
                     <td class="sk">2.50</td>
                     <td class="hyf"></td>
                 </tr>
-                <tr>
+                <tr class="active">
                     <td class="date">2016/10/8 17:41:49</td>
                     <td class="zq"></td>
                     <td class="dx"></td>
@@ -227,7 +228,7 @@
                     <td class="sk">2.50</td>
                     <td class="hyf"></td>
                 </tr>
-                <tr class="double">
+                <tr class="double active">
                     <td class="date">2016/10/8 17:41:49</td>
                     <td class="zq"></td>
                     <td class="dx"></td>
@@ -235,7 +236,7 @@
                     <td class="sk">2.50</td>
                     <td class="hyf"></td>
                 </tr>
-                <tr>
+                <tr class="active">
                     <td class="date">2016/10/8 17:41:49</td>
                     <td class="zq"></td>
                     <td class="dx"></td>
@@ -244,7 +245,11 @@
                     <td class="hyf"></td>
                 </tr>
             </table>
-            
+            <!-- 翻页 -->
+            <div class="fanye">
+                <ul id="pagination-demo" class="pagination-sm">
+                </ul>
+            </div>  
         </div>
     </div> 
     <!-- 底部信息栏 -->

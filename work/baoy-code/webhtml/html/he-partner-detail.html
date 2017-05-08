@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/common/common.css">
 	<link rel="stylesheet" type="text/css" href="../css/he-partner-detail/he-partner-detail.css">
     <script type="text/javascript" src="../Plugins/Jquery2.1.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../Plugins/Jquery2.1.2/jquery.twbsPagination.min.js"></script>
     <script type="text/javascript" src="../Plugins/bootstrap/style/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/he-partner-detail/he-partner-detail.js"></script>
 </head>
@@ -49,7 +50,7 @@
     <!-- 下面是二级导航 -->
     <div class="product-sec-nav">
         <div class="product-sec-nav-cont">
-        	<span>您现在的位置：保游网>保险产品>所有产品>国内保险</span>
+        	<span>您现在的位置：保游网>合作伙伴详情页</span>
         	<div class="product-search-box">
         		<input type="text" placeholder="请输入关键字">
         	    <a class="product-search" href=""><img src="../images/product-search.png"></a>
@@ -85,7 +86,7 @@
         	<p>平安财险-所有保险产品列表</p>
         	<span>共69款产品</span>
         </div>
-    <!-- 左导航内容 -->
+        <!-- 左导航内容 -->
         <div class="product-cont-left">
             <div class="product-cont-left-recommend">
             	<h1>热门推荐</h1>
@@ -121,260 +122,265 @@
             </div>	
         </div>
         <!-- 产品列表 -->
-            <div class="pro-detail-text">
-            	<div class="pro-detail-text-left">
-            		<div class="pro-detail-text-left-img"><img src="../images/pro-detail-img.png"></div>
-	            	<div class="pro-detail-text-left-cont">
-	            		<div class="bao-company clearfix"><img src="../images/pingan.png"></div>
-	            		<div class="pro-detail-text-left-title clearfix">
-	            			<h2>"保游天下"-平安旅行保障计划</h2>
-	            			<p>适合休闲户外旅行活动，特色保障急性病</p>
-	            		</div>
-	            		<ul class="choose-tiao-box">
-	            			<li class="choose-tiao">
-	            				<a href="">A款</a>
-	            			</li>
-                            <li class="choose-tiao">
-                                <a href="">B款</a>
-                            </li>
-                            <li class="choose-tiao">
-                                <a href="">C款</a>
-                            </li>
-                            <li class="choose-tiao">
-                                <a href="">D款</a>
-                            </li>
-                            <li class="choose-tiao">
-                                <a href="">E款</a>
-                            </li>
-	            		</ul>
-	            		<div class="baozhang-box">
-	            			<span style="margin-right: 10px;">保障期限</span>
-	            			<select>
-	            				<option>1-3天</option>
-	            			</select>
-	            			<a style="float: right;" href="product-detail.html">更多保障项目 ></a>
-	            		</div>
-	            		<div class="xiangmu-box">
-	            			<span class="xiangmu1">
-	            				<span class="xiangmu1-left">意外身故伤残</span>
-	            				<span class="xiangmu1-right">10万元</span>
-	            			</span>
-	            			<span class="xiangmu1">
-	            				<span class="xiangmu1-left">意外身故伤残</span>
-	            				<span class="xiangmu1-right">10万元</span>
-	            			</span>
-	            			<span class="xiangmu2">
-	            				<span class="xiangmu1-left">意外身故伤残</span>
-	            				<span class="xiangmu1-right">10万元</span>
-	            			</span>
-	            			<span class="xiangmu2">
-	            				<span class="xiangmu1-left">意外身故伤残</span>
-	            				<span class="xiangmu1-right">10万元</span>
-	            			</span>
-	            		</div>
-	            	</div>
-            	</div>
-            	<div class="pro-price-box">
-            		<div class="pro-price">
-            			<img src="../images/pro-price.png">
-            			<span class="pro-price-num">3</span>
+        <div class="pro-detail-text">
+        	<div class="pro-detail-text-left">
+        		<div class="pro-detail-text-left-img"><img src="../images/pro-detail-img.png"></div>
+            	<div class="pro-detail-text-left-cont">
+            		<div class="bao-company clearfix"><img src="../images/pingan.png"></div>
+            		<div class="pro-detail-text-left-title clearfix">
+            			<h2>"保游天下"-平安旅行保障计划</h2>
+            			<p>适合休闲户外旅行活动，特色保障急性病</p>
             		</div>
-            		<a class="pro-kan" href="product-detail.html">查看详情</a><br>
-            		<a class="pro-buy" href="tou-pay.html">立即购买</a>
-            		<p>销量：302000</p>
+            		<ul class="choose-tiao-box">
+            			<li class="choose-tiao">
+            				<a href="">A款</a>
+            			</li>
+                        <li class="choose-tiao">
+                            <a href="">B款</a>
+                        </li>
+                        <li class="choose-tiao">
+                            <a href="">C款</a>
+                        </li>
+                        <li class="choose-tiao">
+                            <a href="">D款</a>
+                        </li>
+                        <li class="choose-tiao">
+                            <a href="">E款</a>
+                        </li>
+            		</ul>
+            		<div class="baozhang-box">
+            			<span style="margin-right: 10px;">保障期限</span>
+            			<select>
+            				<option>1-3天</option>
+            			</select>
+            			<a style="float: right;" href="product-detail.html">更多保障项目 ></a>
+            		</div>
+            		<div class="xiangmu-box">
+            			<span class="xiangmu1">
+            				<span class="xiangmu1-left">意外身故伤残</span>
+            				<span class="xiangmu1-right">10万元</span>
+            			</span>
+            			<span class="xiangmu1">
+            				<span class="xiangmu1-left">意外身故伤残</span>
+            				<span class="xiangmu1-right">10万元</span>
+            			</span>
+            			<span class="xiangmu2">
+            				<span class="xiangmu1-left">意外身故伤残</span>
+            				<span class="xiangmu1-right">10万元</span>
+            			</span>
+            			<span class="xiangmu2">
+            				<span class="xiangmu1-left">意外身故伤残</span>
+            				<span class="xiangmu1-right">10万元</span>
+            			</span>
+            		</div>
             	</div>
-            </div>	
-            <div class="pro-detail-text">
-                <div class="pro-detail-text-left">
-                    <div class="pro-detail-text-left-img"><img src="../images/pro-detail-img.png"></div>
-                    <div class="pro-detail-text-left-cont">
-                        <div class="bao-company clearfix"><img src="../images/pingan.png"></div>
-                        <div class="pro-detail-text-left-title clearfix">
-                            <h2>"保游天下"-平安旅行保障计划</h2>
-                            <p>适合休闲户外旅行活动，特色保障急性病</p>
-                        </div>
-                        <ul class="choose-tiao-box">
-                            <li class="choose-tiao">
-                                <a href="">A款</a>
-                            </li>
-                            <li class="choose-tiao">
-                                <a href="">B款</a>
-                            </li>
-                            <li class="choose-tiao">
-                                <a href="">C款</a>
-                            </li>
-                            <li class="choose-tiao">
-                                <a href="">D款</a>
-                            </li>
-                            <li class="choose-tiao">
-                                <a href="">E款</a>
-                            </li>
-                        </ul>
-                        <div class="baozhang-box">
-                            <span style="margin-right: 10px;">保障期限</span>
-                            <select>
-                                <option>1-3天</option>
-                            </select>
-                            <a style="float: right;" href="product-detail.html">更多保障项目 ></a>
-                        </div>
-                        <div class="xiangmu-box">
-                            <span class="xiangmu1">
-                                <span class="xiangmu1-left">意外身故伤残</span>
-                                <span class="xiangmu1-right">10万元</span>
-                            </span>
-                            <span class="xiangmu1">
-                                <span class="xiangmu1-left">意外身故伤残</span>
-                                <span class="xiangmu1-right">10万元</span>
-                            </span>
-                            <span class="xiangmu2">
-                                <span class="xiangmu1-left">意外身故伤残</span>
-                                <span class="xiangmu1-right">10万元</span>
-                            </span>
-                            <span class="xiangmu2">
-                                <span class="xiangmu1-left">意外身故伤残</span>
-                                <span class="xiangmu1-right">10万元</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="pro-price-box">
-                    <div class="pro-price">
-                        <img src="../images/pro-price.png">
-                        <span class="pro-price-num">3</span>
-                    </div>
-                    <a class="pro-kan" href="product-detail.html">查看详情</a><br>
-                    <a class="pro-buy" href="tou-pay.html">立即购买</a>
-                    <p>销量：302000</p>
-                </div>
-            </div>
-            <div class="pro-detail-text">
-                <div class="pro-detail-text-left">
-                    <div class="pro-detail-text-left-img"><img src="../images/pro-detail-img.png"></div>
-                    <div class="pro-detail-text-left-cont">
-                        <div class="bao-company clearfix"><img src="../images/pingan.png"></div>
-                        <div class="pro-detail-text-left-title clearfix">
-                            <h2>"保游天下"-平安旅行保障计划</h2>
-                            <p>适合休闲户外旅行活动，特色保障急性病</p>
-                        </div>
-                        <ul class="choose-tiao-box">
-                            <li class="choose-tiao">
-                                <a href="">A款</a>
-                            </li>
-                            <li class="choose-tiao">
-                                <a href="">B款</a>
-                            </li>
-                            <li class="choose-tiao">
-                                <a href="">C款</a>
-                            </li>
-                            <li class="choose-tiao">
-                                <a href="">D款</a>
-                            </li>
-                            <li class="choose-tiao">
-                                <a href="">E款</a>
-                            </li>
-                        </ul>
-                        <div class="baozhang-box">
-                            <span style="margin-right: 10px;">保障期限</span>
-                            <select>
-                                <option>1-3天</option>
-                            </select>
-                            <a style="float: right;" href="product-detail.html">更多保障项目 ></a>
-                        </div>
-                        <div class="xiangmu-box">
-                            <span class="xiangmu1">
-                                <span class="xiangmu1-left">意外身故伤残</span>
-                                <span class="xiangmu1-right">10万元</span>
-                            </span>
-                            <span class="xiangmu1">
-                                <span class="xiangmu1-left">意外身故伤残</span>
-                                <span class="xiangmu1-right">10万元</span>
-                            </span>
-                            <span class="xiangmu2">
-                                <span class="xiangmu1-left">意外身故伤残</span>
-                                <span class="xiangmu1-right">10万元</span>
-                            </span>
-                            <span class="xiangmu2">
-                                <span class="xiangmu1-left">意外身故伤残</span>
-                                <span class="xiangmu1-right">10万元</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="pro-price-box">
-                    <div class="pro-price">
-                        <img src="../images/pro-price.png">
-                        <span class="pro-price-num">3</span>
-                    </div>
-                    <a class="pro-kan" href="product-detail.html">查看详情</a><br>
-                    <a class="pro-buy" href="tou-pay.html">立即购买</a>
-                    <p>销量：302000</p>
-                </div>
-            </div>
-            <div class="pro-detail-text">
-                <div class="pro-detail-text-left">
-                    <div class="pro-detail-text-left-img"><img src="../images/pro-detail-img.png"></div>
-                    <div class="pro-detail-text-left-cont">
-                        <div class="bao-company clearfix"><img src="../images/pingan.png"></div>
-                        <div class="pro-detail-text-left-title clearfix">
-                            <h2>"保游天下"-平安旅行保障计划</h2>
-                            <p>适合休闲户外旅行活动，特色保障急性病</p>
-                        </div>
-                        <ul class="choose-tiao-box">
-                            <li class="choose-tiao">
-                                <a href="">A款</a>
-                            </li>
-                            <li class="choose-tiao">
-                                <a href="">B款</a>
-                            </li>
-                            <li class="choose-tiao">
-                                <a href="">C款</a>
-                            </li>
-                            <li class="choose-tiao">
-                                <a href="">D款</a>
-                            </li>
-                            <li class="choose-tiao">
-                                <a href="">E款</a>
-                            </li>
-                        </ul>
-                        <div class="baozhang-box">
-                            <span style="margin-right: 10px;">保障期限</span>
-                            <select>
-                                <option>1-3天</option>
-                            </select>
-                            <a style="float: right;" href="product-detail.html">更多保障项目 ></a>
-                        </div>
-                        <div class="xiangmu-box">
-                            <span class="xiangmu1">
-                                <span class="xiangmu1-left">意外身故伤残</span>
-                                <span class="xiangmu1-right">10万元</span>
-                            </span>
-                            <span class="xiangmu1">
-                                <span class="xiangmu1-left">意外身故伤残</span>
-                                <span class="xiangmu1-right">10万元</span>
-                            </span>
-                            <span class="xiangmu2">
-                                <span class="xiangmu1-left">意外身故伤残</span>
-                                <span class="xiangmu1-right">10万元</span>
-                            </span>
-                            <span class="xiangmu2">
-                                <span class="xiangmu1-left">意外身故伤残</span>
-                                <span class="xiangmu1-right">10万元</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="pro-price-box">
-                    <div class="pro-price">
-                        <img src="../images/pro-price.png">
-                        <span class="pro-price-num">3</span>
-                    </div>
-                    <a class="pro-kan" href="product-detail.html">查看详情</a><br>
-                    <a class="pro-buy" href="tou-pay.html">立即购买</a>
-                    <p>销量：302000</p>
-                </div>
-            </div>
+        	</div>
+        	<div class="pro-price-box">
+        		<div class="pro-price">
+        			<img src="../images/pro-price.png">
+        			<span class="pro-price-num">3</span>
+        		</div>
+        		<a class="pro-kan" href="product-detail.html">查看详情</a><br>
+        		<a class="pro-buy" href="tou-pay.html">立即购买</a>
+        		<p>销量：302000</p>
+        	</div>
         </div>	
-    </div>
+        <div class="pro-detail-text">
+            <div class="pro-detail-text-left">
+                <div class="pro-detail-text-left-img"><img src="../images/pro-detail-img.png"></div>
+                <div class="pro-detail-text-left-cont">
+                    <div class="bao-company clearfix"><img src="../images/pingan.png"></div>
+                    <div class="pro-detail-text-left-title clearfix">
+                        <h2>"保游天下"-平安旅行保障计划</h2>
+                        <p>适合休闲户外旅行活动，特色保障急性病</p>
+                    </div>
+                    <ul class="choose-tiao-box">
+                        <li class="choose-tiao">
+                            <a href="">A款</a>
+                        </li>
+                        <li class="choose-tiao">
+                            <a href="">B款</a>
+                        </li>
+                        <li class="choose-tiao">
+                            <a href="">C款</a>
+                        </li>
+                        <li class="choose-tiao">
+                            <a href="">D款</a>
+                        </li>
+                        <li class="choose-tiao">
+                            <a href="">E款</a>
+                        </li>
+                    </ul>
+                    <div class="baozhang-box">
+                        <span style="margin-right: 10px;">保障期限</span>
+                        <select>
+                            <option>1-3天</option>
+                        </select>
+                        <a style="float: right;" href="product-detail.html">更多保障项目 ></a>
+                    </div>
+                    <div class="xiangmu-box">
+                        <span class="xiangmu1">
+                            <span class="xiangmu1-left">意外身故伤残</span>
+                            <span class="xiangmu1-right">10万元</span>
+                        </span>
+                        <span class="xiangmu1">
+                            <span class="xiangmu1-left">意外身故伤残</span>
+                            <span class="xiangmu1-right">10万元</span>
+                        </span>
+                        <span class="xiangmu2">
+                            <span class="xiangmu1-left">意外身故伤残</span>
+                            <span class="xiangmu1-right">10万元</span>
+                        </span>
+                        <span class="xiangmu2">
+                            <span class="xiangmu1-left">意外身故伤残</span>
+                            <span class="xiangmu1-right">10万元</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="pro-price-box">
+                <div class="pro-price">
+                    <img src="../images/pro-price.png">
+                    <span class="pro-price-num">3</span>
+                </div>
+                <a class="pro-kan" href="product-detail.html">查看详情</a><br>
+                <a class="pro-buy" href="tou-pay.html">立即购买</a>
+                <p>销量：302000</p>
+            </div>
+        </div>
+        <div class="pro-detail-text">
+            <div class="pro-detail-text-left">
+                <div class="pro-detail-text-left-img"><img src="../images/pro-detail-img.png"></div>
+                <div class="pro-detail-text-left-cont">
+                    <div class="bao-company clearfix"><img src="../images/pingan.png"></div>
+                    <div class="pro-detail-text-left-title clearfix">
+                        <h2>"保游天下"-平安旅行保障计划</h2>
+                        <p>适合休闲户外旅行活动，特色保障急性病</p>
+                    </div>
+                    <ul class="choose-tiao-box">
+                        <li class="choose-tiao">
+                            <a href="">A款</a>
+                        </li>
+                        <li class="choose-tiao">
+                            <a href="">B款</a>
+                        </li>
+                        <li class="choose-tiao">
+                            <a href="">C款</a>
+                        </li>
+                        <li class="choose-tiao">
+                            <a href="">D款</a>
+                        </li>
+                        <li class="choose-tiao">
+                            <a href="">E款</a>
+                        </li>
+                    </ul>
+                    <div class="baozhang-box">
+                        <span style="margin-right: 10px;">保障期限</span>
+                        <select>
+                            <option>1-3天</option>
+                        </select>
+                        <a style="float: right;" href="product-detail.html">更多保障项目 ></a>
+                    </div>
+                    <div class="xiangmu-box">
+                        <span class="xiangmu1">
+                            <span class="xiangmu1-left">意外身故伤残</span>
+                            <span class="xiangmu1-right">10万元</span>
+                        </span>
+                        <span class="xiangmu1">
+                            <span class="xiangmu1-left">意外身故伤残</span>
+                            <span class="xiangmu1-right">10万元</span>
+                        </span>
+                        <span class="xiangmu2">
+                            <span class="xiangmu1-left">意外身故伤残</span>
+                            <span class="xiangmu1-right">10万元</span>
+                        </span>
+                        <span class="xiangmu2">
+                            <span class="xiangmu1-left">意外身故伤残</span>
+                            <span class="xiangmu1-right">10万元</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="pro-price-box">
+                <div class="pro-price">
+                    <img src="../images/pro-price.png">
+                    <span class="pro-price-num">3</span>
+                </div>
+                <a class="pro-kan" href="product-detail.html">查看详情</a><br>
+                <a class="pro-buy" href="tou-pay.html">立即购买</a>
+                <p>销量：302000</p>
+            </div>
+        </div>
+        <div class="pro-detail-text">
+            <div class="pro-detail-text-left">
+                <div class="pro-detail-text-left-img"><img src="../images/pro-detail-img.png"></div>
+                <div class="pro-detail-text-left-cont">
+                    <div class="bao-company clearfix"><img src="../images/pingan.png"></div>
+                    <div class="pro-detail-text-left-title clearfix">
+                        <h2>"保游天下"-平安旅行保障计划</h2>
+                        <p>适合休闲户外旅行活动，特色保障急性病</p>
+                    </div>
+                    <ul class="choose-tiao-box">
+                        <li class="choose-tiao">
+                            <a href="">A款</a>
+                        </li>
+                        <li class="choose-tiao">
+                            <a href="">B款</a>
+                        </li>
+                        <li class="choose-tiao">
+                            <a href="">C款</a>
+                        </li>
+                        <li class="choose-tiao">
+                            <a href="">D款</a>
+                        </li>
+                        <li class="choose-tiao">
+                            <a href="">E款</a>
+                        </li>
+                    </ul>
+                    <div class="baozhang-box">
+                        <span style="margin-right: 10px;">保障期限</span>
+                        <select>
+                            <option>1-3天</option>
+                        </select>
+                        <a style="float: right;" href="product-detail.html">更多保障项目 ></a>
+                    </div>
+                    <div class="xiangmu-box">
+                        <span class="xiangmu1">
+                            <span class="xiangmu1-left">意外身故伤残</span>
+                            <span class="xiangmu1-right">10万元</span>
+                        </span>
+                        <span class="xiangmu1">
+                            <span class="xiangmu1-left">意外身故伤残</span>
+                            <span class="xiangmu1-right">10万元</span>
+                        </span>
+                        <span class="xiangmu2">
+                            <span class="xiangmu1-left">意外身故伤残</span>
+                            <span class="xiangmu1-right">10万元</span>
+                        </span>
+                        <span class="xiangmu2">
+                            <span class="xiangmu1-left">意外身故伤残</span>
+                            <span class="xiangmu1-right">10万元</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="pro-price-box">
+                <div class="pro-price">
+                    <img src="../images/pro-price.png">
+                    <span class="pro-price-num">3</span>
+                </div>
+                <a class="pro-kan" href="product-detail.html">查看详情</a><br>
+                <a class="pro-buy" href="tou-pay.html">立即购买</a>
+                <p>销量：302000</p>
+            </div>
+        </div>
+        <!-- 翻页 -->
+        <div class="fanye">
+            <ul id="pagination-demo" class="pagination-sm">
+            </ul>
+        </div>
+    </div>	
+    <!-- </div> -->
     <!-- 底部信息栏 -->
     <div class="btm-message-all">
         <div class="btm-message">

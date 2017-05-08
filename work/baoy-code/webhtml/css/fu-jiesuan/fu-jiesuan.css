@@ -108,6 +108,7 @@ a:link{
 	background-color: #fff; 
 	font-size: 14px;
 	display: none;
+	z-index: 200;
 }
 .zhanghu-tan span{
 	display: block;
@@ -150,15 +151,16 @@ a:link{
 	top: 100px;
 	width: 282px;
 	height: 292px;
-	background-color: orange;
+	background:url(../../images/message-btm.png);
 	font-size: 0;
 	display: none;
+	z-index: 99;
 }
 .khjlInfor .box1{
 	display: inline-block;
 	width: 102px;
 	height: 102px;
-	border: 1px solid #333;
+	border: 1px solid #ddd;
 	margin-top: 34px;
 	margin-left: 10px;
 }
@@ -166,7 +168,7 @@ a:link{
 	display: inline-block;
 	width: 102px;
 	height: 102px;
-	border: 1px solid #333;
+	border: 1px solid #ddd;
 	margin-left: 10px;
 }
 .khjlInfor .box1L{
@@ -414,6 +416,12 @@ a:link{
 	border: none;
 	outline: none;
 }
+#hang-active:hover{
+    background-color: rgba(0,130,203,.15);
+}
+.tab{
+	background-color: #fff;
+}
 .tab th,
 .tab td{
 	height: 50px;
@@ -426,7 +434,6 @@ a:link{
 }
 .tab td{
 	border: 1px solid #ddd;
-	background-color: #fff;
 }
 .tab .btnBox{
 	border:none;
@@ -452,9 +459,6 @@ a:link{
 }
 .tab .jsuan{
 	width: 148px;
-}
-.tab .double td{
-	background-color: #eaeaea;
 }
 .hBox{
 	float: left;
@@ -504,6 +508,7 @@ a:link{
 }
 .note .box{
 	border:1px solid #ddd;
+	background-color: #fff;
 }
 .note .box p{
 	padding-left: 20px;
@@ -516,7 +521,21 @@ a:link{
 	padding-left: 35px;
 	margin-bottom: 20px;
 }
+/*翻页*/
+.fanye{
+	text-align: right;
+	width: 954px;
+	margin: 20px auto;
+}
+.pagination-sm>li>a, .pagination-sm>li>span{
+	padding:12px 24px;
+}
+.pagination-sm{
+	margin-top: 0;
+}
 
-
+.hang-active:hover{
+	background-color: rgba(0,130,203,.15);
+}
 
 
